@@ -38,3 +38,9 @@
   * [查询服务配置文件](APIs/product/get_configmap.md)
   * [列出镜像](APIs/product/list_image.md)
   * [容器实时日志](APIs/product/container_log_ws.md)
+* [3. Pipeline管理接口](APIs/product/README.md)
+  * [容器实时日志](APIs/product/container_log_ws.md)
+* [4. 任务管理接口](APIs/product/README.md)
+  * [容器实时日志](APIs/product/container_log_ws.md)
+
+
