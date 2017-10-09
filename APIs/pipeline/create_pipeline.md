@@ -12,7 +12,6 @@ POST /api/v2/pipelines
 
 ##### 请求参数
 
-
 ```json
 {
   "name": "test-pipeline",
