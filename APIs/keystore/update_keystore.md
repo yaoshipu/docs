@@ -12,7 +12,12 @@ PUT /api/keystore/:key
 
 ##### 请求参数
 
-无
+```json
+{
+    "namespace": "shared-namespace",
+    "value": "value"
+}
+```
 
 ##### 参数说明
 
