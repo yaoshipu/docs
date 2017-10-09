@@ -15,3 +15,11 @@ DELETE /api/templates/groups/:name
 ##### 正常返回
 
 ##### 错误返回
+
+```json
+{
+  "code":6104,
+  "message":"Delete Template Error",
+  "description":"error details"
+}
+```
