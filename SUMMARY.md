@@ -7,4 +7,6 @@
 ## API接口文档
 
 * [1. 模板管理接口](methods.md)
+  * [创建产品模板](methods/test.md)
+  * [更新产品模板](methods/geng-xin-chan-pin-mo-ban.md)
 
