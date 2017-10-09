@@ -18,3 +18,4 @@
   * [获取服务组模板](APIs/template/get_group_tmpl.md)
   * [删除服务组模板](APIs/template/delete_group_tmpl.md)
 * [2. 产品管理接口](APIs/product/README.md)
+  * [创建产品](APIs/product/create_product.md)
