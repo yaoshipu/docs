@@ -18,7 +18,6 @@ GET /api/products/:productName/groups/:groupName`
 
 ##### 正常返回
 
-
 ```json
 [
   {
