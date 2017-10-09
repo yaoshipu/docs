@@ -21,7 +21,12 @@ PUT /api/keystore/:key
 
 ##### 参数说明
 
-无
+
+|参数|描述|
+|---|---|
+|namespace|用户名称, 普通用户为自身LDAP用户名, 管理员用户为任意LDAP用户名或者`shared-namespace`|
+|value|值|
+|shared-namespace|共享参数|
 
 ##### 正常返回
 
