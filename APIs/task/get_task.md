@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+GET /api/v2/tasks/id/:id/pipelines/:name
+```
+
 ##### 请求参数
 
 无
