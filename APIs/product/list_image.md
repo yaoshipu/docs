@@ -16,7 +16,6 @@ GET /api/registry/images
 
 ##### 参数说明
 
-
 |参数|描述|
 |---|---|
 |host|registry域名|
