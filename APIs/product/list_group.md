@@ -9,6 +9,10 @@
   
 #### 请求
 
+```
+GET /api/products/:productName/groups
+```
+
 ##### 请求参数
 
 无
