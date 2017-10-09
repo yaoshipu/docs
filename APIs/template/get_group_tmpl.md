@@ -31,3 +31,11 @@
 ```
 
 ##### 错误返回
+
+```json
+{
+  "code":6103,
+  "message":"Get Template Error",
+  "description":"error details"
+}
+```
