@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+POST /api/templates/services
+```
+
 ##### 请求参数
 
 ```json
