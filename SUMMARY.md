@@ -19,4 +19,4 @@
   * [删除服务组模板](APIs/template/delete_group_tmpl.md)
 
 
-
+* [2. 模板管理接口](APIs/product/README.md)
