@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+DELETE /api/keystore/:key?namespace=:namespace
+```
+
 ##### 请求参数
 
 无

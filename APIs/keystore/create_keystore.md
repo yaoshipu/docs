@@ -10,7 +10,13 @@ POST /api/keystore
 
 ##### 请求参数
 
-无
+```
+{
+    "namespace": "shared-namespace",
+    "key": "ak",
+    "value": "value"
+}
+```
 
 ##### 参数说明
 
