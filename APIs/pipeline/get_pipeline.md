@@ -1,4 +1,4 @@
-## 删除Pipeline
+## 查询Pipeline
 
 #### 注意事项
 
