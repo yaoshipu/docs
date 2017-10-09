@@ -2,7 +2,13 @@
 
 #### 注意事项
 
+- 需要`admin`权限
+
 #### 请求
+
+```
+DELETE /api/templates/products/:name
+```
 
 ##### 请求参数
 
