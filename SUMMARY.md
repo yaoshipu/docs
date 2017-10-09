@@ -19,3 +19,7 @@
   * [删除服务组模板](APIs/template/delete_group_tmpl.md)
 * [2. 产品管理接口](APIs/product/README.md)
   * [创建产品](APIs/product/create_product.md)
+  * [更新产品](APIs/product/update_product.md)
+  * [列出产品](APIs/product/list_product.md)
+  * [删除产品](APIs/product/delete_product.md)
+  * [列出产品更新信息](APIs/product/list_product_revision.md)
