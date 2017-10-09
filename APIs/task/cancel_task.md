@@ -7,6 +7,10 @@
 
 #### 请求
 
+```
+POST /api/v2/tasks/id/:id/pipelines/:name/cancel
+```
+
 ##### 请求参数
 
 无
