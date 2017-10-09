@@ -1,4 +1,4 @@
-## 删除Pipeline
+## 列出Pipeline
 
 #### 注意事项
 
