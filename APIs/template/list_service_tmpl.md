@@ -10,4 +10,12 @@
 
 ##### 正常返回
 
+```json
+[
+  "service-1",
+  "service-2",
+  "service-3",
+  "service-4"
+]
+```
 ##### 错误返回
