@@ -6,7 +6,7 @@
 
 #### 请求:
 
-    GET /api/templates/products
+GET /api/templates/products
 
 ##### 返回:
 
