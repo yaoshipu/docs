@@ -6,7 +6,14 @@
 
 ##### 请求参数
 
-无
+```json
+{
+  "kind": "pod",
+  "resource_name": "pod_name",
+  "container_name": "container_name",
+  "image": "image_full_name"
+}
+```
 
 ##### 参数说明
 
