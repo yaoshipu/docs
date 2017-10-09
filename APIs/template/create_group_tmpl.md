@@ -2,6 +2,10 @@
 
 #### 注意事项
 
+- 需要`admin`权限
+- 服务组模板依赖次序在`serviecs`里描述
+- 服务组模板依赖服务,需要调用`创建服务模板`预先创建
+
 #### 请求
 
 ```
@@ -11,7 +15,7 @@ POST /api/templates/groups
 ##### 请求参数
 
 ```
-application/json
+Content-Type: application/json
 ```
 
 ```json
