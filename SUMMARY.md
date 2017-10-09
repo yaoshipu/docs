@@ -2,8 +2,9 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Spock API](README.md)
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [模板管理接口](methods.md)
+
