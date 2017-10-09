@@ -6,6 +6,10 @@
 
 #### 请求
 
+```
+GET /api/v2/tasks/running
+GET /api/v2/tasks/ws/running [websocket 接口]
+```
 ##### 请求参数
 
 无
