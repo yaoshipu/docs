@@ -47,3 +47,19 @@ Content-Type: application/json
 ```
 
 ##### 错误返回
+
+```json
+{
+  "code": "400",
+  "message" : "invalid GroupTmpl json args",
+  "description": "Bad Request"
+}
+```
+
+```json
+{
+  "code":6100,
+  "message":"Create Template Error",
+  "description":"error details"
+}
+```
