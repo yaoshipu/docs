@@ -15,7 +15,10 @@ WS /api/logs/ws/pods/:podName/containers/:containerName
 
 ##### 参数说明
 
-无
+|参数|说明|
+|---|---|
+|podName|服务Pod名称|
+|containerName|容器名称|
 
 ##### 正常返回
 
