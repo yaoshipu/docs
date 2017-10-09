@@ -3,7 +3,6 @@
 #### 注意事项
 
 - 需要`user`权限
-
 - 产品状态有如下3种:
   - Successful: 运行良好
   - Unstable: 运行不稳定（部分stack/service挂了）
