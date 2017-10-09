@@ -17,6 +17,4 @@
   * [列出服务组模板](APIs/template/list_group_tmpl.md)
   * [获取服务组模板](APIs/template/get_group_tmpl.md)
   * [删除服务组模板](APIs/template/delete_group_tmpl.md)
-
-
-* [2. 模板管理接口](APIs/product/README.md)
+* [2. 产品管理接口](APIs/product/README.md)
