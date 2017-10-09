@@ -16,7 +16,7 @@ GET /api/templates/groups
 
 ##### 参数说明
 
-详见`创建服务组模版`
+详见`创建服务组模版` 
 
 ##### 正常返回
 
@@ -40,3 +40,11 @@ GET /api/templates/groups
 ]
 ```	
 ##### 错误返回
+
+```json
+{
+  "code": "6102",
+  "message" : "List Template Error",
+  "description": "error details"
+}
+```
