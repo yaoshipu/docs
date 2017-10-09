@@ -6,9 +6,14 @@
 
 #### 请求
 
+```
+POST /api/v2/tasks/id/:id/pipelines/:name/restart
+```
+
 ##### 请求参数
 
-无
+- id：队列任务的ID
+- name: pipeline 名称
 
 ##### 参数说明
 
