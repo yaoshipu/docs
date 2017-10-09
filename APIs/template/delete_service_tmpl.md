@@ -2,7 +2,14 @@
 
 #### 注意事项
 
+- 需要`admin`权限
+- 删除服务以及其全部版本
+
 #### 请求
+
+```
+DELETE /api/templates/services/:name
+```
 
 ##### 请求参数
 
