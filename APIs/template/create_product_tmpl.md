@@ -55,8 +55,3 @@ POST /api/templates/products
   "description":"error details"
 }
 ```
-
-
-
-
-

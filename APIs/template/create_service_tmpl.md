@@ -105,3 +105,11 @@ spec:
 ```
 
 ##### 错误返回
+
+```json
+{
+  "code":6101,
+  "message":"Create Template Error",
+  "description":"error details"
+}
+```
