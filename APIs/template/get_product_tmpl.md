@@ -12,6 +12,8 @@ GET /api/templates/products/:name
 
 ##### 请求参数
 
+无
+
 ##### 参数说明
 
 详见`创建产品模版`
