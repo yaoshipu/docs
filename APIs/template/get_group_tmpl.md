@@ -10,7 +10,7 @@
 
 ##### 正常返回
 
-```
+```json
 {
   "group_name": "mongo-rs",
   "revision": 3,
