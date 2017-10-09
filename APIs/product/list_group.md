@@ -14,8 +14,26 @@
 
 ##### 正常返回
 
+```json
+  [
+    {
+      "group_name": "portal-v4",
+      "services": [
+        [
+          "index",
+          "kirk",
+          "kodo",
+          "fusion",
+          "certificate",
+          "jedi",
+          "pili",
+          "vance",
+          "kylin",
+          "fe-financial"
+        ]
+      ],
+      "status": "Running"
+    }
+  ]
 ```
-200 OK
-```
-
 ##### 错误返回
