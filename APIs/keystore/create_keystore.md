@@ -12,7 +12,7 @@ POST /api/keystore
 
 ##### 请求参数
 
-```
+```json
 {
     "namespace": "shared-namespace",
     "key": "ak",
