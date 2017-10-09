@@ -20,7 +20,6 @@ GET /api/v2/pipelines
 ##### 正常返回
 
 ```json
-
 [
   {
     "name": "test-pipeline",
