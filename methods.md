@@ -1,9 +1,9 @@
-# Defining Methods
+# 模板管理接口
 
-Methods allow you to smoothly display code examples in different languages.
+管理产品模板，管理产品线之间的依赖关系，产品线内服务的启动顺序。
 
 {% method %}
-## My first method
+## 创建产品模板
 
 My first method exposes how to print a message in JavaScript and Go.
 
@@ -27,4 +27,10 @@ Whatever language you are using, the result will be the same.
 ```bash
 $ My first method
 ```
+{% endmethod %}
+
+{% method %}
+
+## 更新产品模板
+
 {% endmethod %}
