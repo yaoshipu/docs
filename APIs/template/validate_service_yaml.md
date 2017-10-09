@@ -20,8 +20,10 @@ POST /api/templates/validate
 
 ##### 正常返回
 
-```
-200 OK
+```json
+{
+  "yaml": "parsed yaml"
+}
 ```
 
 ##### 错误返回
