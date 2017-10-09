@@ -20,8 +20,17 @@ GET /api/keystore
 
 ##### 正常返回
 
-```
-200 OK
+```json
+[
+  {
+    "namespace": "zhangdahe",
+    "key": "ak",
+    "value": "akvalue",
+    "create_time": 1505045090,
+    "update_time": 1505045090,
+    "update_by": "zhangdahe"
+  }
+]
 ```
 
 ##### 错误返回
