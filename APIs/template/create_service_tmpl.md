@@ -97,6 +97,11 @@ spec:
             - protocol: TCP
               containerPort: 80
 ```
+
 ##### 正常返回
+
+```
+200 OK
+```
 
 ##### 错误返回
