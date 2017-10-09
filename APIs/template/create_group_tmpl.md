@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+POST /api/templates/groups
+```
+
 ##### 请求参数
 
 ```
