@@ -6,6 +6,16 @@
 
 ##### 请求参数
 
+```json
+{
+  "service_name": "demo",
+  "yaml": "yaml file content",
+  "test": {
+    "command": "demo command",
+    "result_path": "/test/result/path"
+  }
+}
+```
 ##### 参数说明
 
 ##### 正常返回
