@@ -14,10 +14,6 @@ POST /api/templates/groups
 
 ##### 请求参数
 
-```
-Content-Type: application/json
-```
-
 ```json
 {
   "group_name": "group-A",
