@@ -8,8 +8,8 @@
 
 ```
 GET /api/templates/products
-
 ```
+
 ##### 请求参数
 
 无
