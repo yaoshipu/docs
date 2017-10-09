@@ -14,6 +14,10 @@ POST /api/templates/products
 
 ##### 请求参数
 
+```
+Content-Type: application/json
+```
+
 ```json
 {
   "product_name": "product-X",
