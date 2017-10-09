@@ -4,17 +4,23 @@
 
 - 需要`user`权限
 
-#### 请求:
-
-    GET /api/templates/products
-
-##### 返回:
-
-**Code:** `200`
-
-**Content:**
+#### 请求
 
 ```
+GET /api/templates/products
+
+```
+##### 请求参数
+
+无
+
+##### 参数说明
+
+详见`创建产品模版`
+
+##### 正常返回
+
+```json
 [
   {
     "product_name": "mongo-rs",
@@ -28,13 +34,14 @@
     "enabled": true
   }
 ]
-```	
-##### 参数说明:
+```
 
-详见`创建产品模版`
+##### 错误返回
 
-##### 错误信息:
-
-**Code:** `6102`
-
-**Content:** `{ "message" : "List Template Error", "code": "6102", "description": "error details"}`
+```json
+{
+  "code": "6102",
+  "message" : "List Template Error", 
+  "description": "error details"
+}
+```
