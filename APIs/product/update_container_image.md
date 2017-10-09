@@ -10,7 +10,12 @@
 
 ##### 参数说明
 
-无
+|参数|描述|
+|---|---|
+|kind|kube资源类型|
+|resource_name|kube资源名称|
+|container_name|容器名称|
+|image|镜像|
 
 ##### 正常返回
 
