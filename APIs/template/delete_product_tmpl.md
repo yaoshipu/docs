@@ -12,7 +12,11 @@ DELETE /api/templates/products/:name
 
 ##### 请求参数
 
+无
+
 ##### 参数说明
+
+无
 
 ##### 正常返回
 
@@ -21,3 +25,11 @@ DELETE /api/templates/products/:name
 ```
 
 ##### 错误返回
+
+```json
+{
+  "code":6104,
+  "message":"Delete Template Error",
+  "description":"error details"
+}
+```
