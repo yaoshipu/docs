@@ -16,7 +16,13 @@ GET /api/registry/images
 
 ##### 参数说明
 
-无
+
+|参数|描述|
+|---|---|
+|host|registry域名|
+|owner|registry用户名|
+|name|服务名称，命名规则[a-z0-9_.-]|
+|tag|标签，命名规则[A-Za-z0-9_.-]|
 
 ##### 正常返回
 
