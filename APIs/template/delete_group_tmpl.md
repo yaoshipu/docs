@@ -14,6 +14,10 @@ DELETE /api/templates/groups/:name
 
 ##### 正常返回
 
+```
+200 OK
+```
+
 ##### 错误返回
 
 ```json
