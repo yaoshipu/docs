@@ -6,6 +6,10 @@
 
 #### 请求
 
+```
+POST /api/products/:productName/groups/:groupName/services/:serviceName/scale/:number
+```
+
 ##### 请求参数
 
 无
