@@ -67,7 +67,7 @@ PUT /api/v2/pipelines/:name
 
 ##### 参数说明
 
-无
+详见`创建Pipeline`
 
 ##### 正常返回
 
