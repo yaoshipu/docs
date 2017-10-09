@@ -6,6 +6,10 @@
 
 #### 请求
 
+```
+GET /api/v2/pipelines/:name
+```
+
 ##### 请求参数
 
 无
