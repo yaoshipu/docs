@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+GET /api/registry/images
+```
+
 ##### 请求参数
 
 无
