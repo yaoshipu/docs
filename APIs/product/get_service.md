@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+GET /api/products/:productName/groups/:groupName/services/:serviceName
+```
+
 ##### 请求参数
 
 无
