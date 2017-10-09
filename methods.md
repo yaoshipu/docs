@@ -1,36 +1,56 @@
-# 模板管理接口
+# 1. 模板管理接口
 
 管理产品模板，管理产品线之间的依赖关系，产品线内服务的启动顺序。
 
-{% method %}
 ## 创建产品模板
 
-My first method exposes how to print a message in JavaScript and Go.
+#### 注意事项
 
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
+* 需要`admin`权限
+* 产品模板依赖次序在`groups`里描述
+* 产品模板依赖服务组,需要调用创建服务组模板预先创建
 
-```js
-console.log('My first method');
+#### 请求
+
+```
+POST /api/templates/products
 ```
 
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
+##### 请求参数
 
-```go
-fmt.Println("My first method")
+```
+Content-Type: application/json
 ```
 
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
+```json
+{
+  "product_name": "product-X",
+  "groups": [
+    "group-A", "group-B"
+  ],
+  "enabled": true
+}
 ```
-{% endmethod %}
 
-{% method %}
+##### 参数说明
+
+`product_name`  产品名称，全局唯一
+`groups`  产品依赖服务组，服务组按配置的先后顺序启动
+`enabled`  是否启用模版, 暂时没有使用
+
+##### 请求返回
+```
+200 OK
+```
+##### 错误信息
+
+```json
+{
+  "code":6100,
+  "description":"empty product name",  
+  "message":"Create Template Error"
+}
+```
 
 ## 更新产品模板
 
-{% endmethod %}
