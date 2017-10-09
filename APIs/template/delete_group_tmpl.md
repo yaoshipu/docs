@@ -4,6 +4,10 @@
 
 #### 请求
 
+```
+DELETE /api/templates/groups/:name
+```
+
 ##### 请求参数
 
 ##### 参数说明
