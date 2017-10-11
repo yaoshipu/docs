@@ -12,8 +12,7 @@ GET /api/v2/tasks/status
 
 ##### 请求参数
 
-- name: pipeline 名称
-- limit: 显示任务数量
+无
 
 ##### 参数说明
 
