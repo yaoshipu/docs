@@ -12,12 +12,14 @@ POST /api/v2/tasks/id/:id/pipelines/:name/restart
 
 ##### 请求参数
 
-- id：队列任务的ID
-- name: pipeline 名称
+无
 
 ##### 参数说明
 
-无
+|参数|说明|
+|---|---|
+|id|运行任务的ID|
+|name|pipeline名称|
 
 ##### 正常返回
 
