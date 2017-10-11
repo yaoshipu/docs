@@ -12,12 +12,14 @@ GET /api/v2/tasks/pipeline/:name/:limit
 
 ##### 请求参数
 
-- name: pipeline 名称
-- limit: 显示任务数量
+无
 
 ##### 参数说明
 
-无
+|参数|说明|
+|---|---|
+|name|pipeline名称|
+|limit|显示任务数量|
 
 ##### 正常返回
 
