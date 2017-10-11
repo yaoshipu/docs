@@ -9,7 +9,7 @@
 #### 请求
 
 ```
-POST /api/products/:productName
+POST /api/products/:name
 ```
 
 ##### 请求参数
@@ -20,7 +20,7 @@ POST /api/products/:productName
 
 |参数|说明|
 |---|---|
-|product_name|产品名称，全局唯一|
+|name|产品名称，全局唯一|
 
 ##### 正常返回
 
