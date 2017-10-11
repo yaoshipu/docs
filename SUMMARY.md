@@ -51,5 +51,7 @@
   * [列出运行中任务](APIs/task/list_running_task.md)
   * [取消任务](APIs/task/cancel_task.md)
   * [重启任务](APIs/task/restart_task.md)
+  * [列出任务](APIs/task/list_task.md)
+  * [列出任务状态](APIs/task/list_task_status.md)
 
 
