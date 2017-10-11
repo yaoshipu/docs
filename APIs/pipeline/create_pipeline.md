@@ -33,6 +33,7 @@ POST /api/v2/pipelines
     },
     {
       "type": "deploy",
+      "namespace": "yaoshipu",
       "product_name": "spock-kube",
       "group_name": "spock-kube",
       "service_name": "spock-backend",
