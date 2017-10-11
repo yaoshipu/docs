@@ -12,7 +12,6 @@ GET /api/v2/github/repos/:owner/:repo/branches
 
 ##### 请求参数
 
-
 ##### 参数说明
 
 ##### 正常返回
