@@ -41,5 +41,6 @@ GET /api/tasks/pipeline/:name/:limit
     "end_time": 1507718533
   }
 ]
+```
 
 ##### 错误返回
