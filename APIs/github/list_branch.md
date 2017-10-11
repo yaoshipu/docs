@@ -1,4 +1,4 @@
-## 创建服务配置项
+## 列出分支
 
 #### 注意事项
 
@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-POST /api/v2/github/repos
+POST /api/v2/github/repos/:owner/:repo/branches
 ```
 
 ##### 请求参数
