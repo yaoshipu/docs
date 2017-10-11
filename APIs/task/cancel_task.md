@@ -13,7 +13,10 @@ POST /api/v2/tasks/id/:id/pipelines/:name/cancel
 
 ##### 请求参数
 
-- id：运行任务的ID
+|参数|说明|
+|---|---|
+|id|运行任务的ID|
+|name|pipeline名称|
 
 ##### 参数说明
 
