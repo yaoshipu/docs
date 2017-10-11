@@ -56,10 +56,18 @@ POST /api/v2/pipelines
     {
       "type": "distribute",
       "dist_host": "jumpbox",
+      "package_file": "same as previous build task value",
       "timeout": 600
     },
     {
       "type": "jira",
+      "timeout": 600
+    },
+    {
+      "type": "jira",
+      "repo_owner": "qbox",
+      "repo_name": "aslan-platform",
+      "pull_request_number": 123,
       "timeout": 600
     }
   ]
