@@ -24,7 +24,7 @@ POST /api/v2/pipelines
       "repo_owner": "qbox",
       "repo_name": "aslan-platform",
       "branch": "dev",
-      "pull_request_id": 123,
+      "pull_request_number": 123,
       "commit_id": "456",
       "commit_message": "commit message",
       "image": "image full name",
