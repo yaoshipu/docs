@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/v2/tasks/pipeline/:name/:limit
+GET /api/v2/tasks/status
 ```
 
 ##### 请求参数
