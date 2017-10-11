@@ -16,7 +16,10 @@ GET /api/v2/tasks/id/:id/pipelines/:name
 
 ##### 参数说明
 
-无
+|参数|说明|
+|---|---|
+|id|运行任务的ID|
+|name|pipeline名称|
 
 ##### 正常返回
 
