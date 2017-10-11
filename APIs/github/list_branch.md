@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-POST /api/v2/github/repos/:owner/:repo/branches
+GET /api/v2/github/repos/:owner/:repo/branches
 ```
 
 ##### 请求参数

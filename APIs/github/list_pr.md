@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-POST /api/v2/github/repos
+GET /api/v2/github/repos/:owner/:repo/pulls?state=closed
 ```
 
 ##### 请求参数
