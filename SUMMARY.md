@@ -53,5 +53,10 @@
   * [重启任务](APIs/task/restart_task.md)
   * [列出任务](APIs/task/list_task.md)
   * [列出任务状态](APIs/task/list_task_status.md)
+* [5. 服务配置接口](APIs/keystore/README.md)
+  * [创建服务配置项](APIs/keystore/create_keystore.md)
+  * [更新服务配置项](APIs/keystore/update_keystore.md)
+  * [列出服务配置项](APIs/keystore/list_keystore.md)
+  * [删除服务配置项](APIs/keystore/delete_keystore.md)
 
 
