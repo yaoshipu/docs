@@ -7,12 +7,21 @@
 #### 请求
 
 ```
-
+POST /api/secrets
 ```
 
 ##### 请求参数
 
-无
+```json
+{
+  "name": "test-secret",
+  "value": "test-pwd",
+  "image": [
+    "index.qiniu.com/spock/docker-client",
+    "index.qiniu.com/spock/golang:1.7"
+  ]
+}
+```
 
 ##### 参数说明
 
