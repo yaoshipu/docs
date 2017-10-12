@@ -13,7 +13,11 @@ PUT /api/secrets/:name
 
 ##### 请求参数
 
-无
+```json
+{
+  "value": "secret-value"
+}
+```
 
 ##### 参数说明
 
