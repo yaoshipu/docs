@@ -15,7 +15,7 @@ DELETE /api/secrets/:name/images
 
 ```json
 {
-"iamges": "index.qiniu.com/spock/docker-client"
+    "images": "index.qiniu.com/spock/docker-client"
 }
 ```
 
