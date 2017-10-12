@@ -39,7 +39,6 @@ PUT /api/repos/:owner/:name/secrets
 {
   "id": 22,
   "name": "test-secret",
-  "value": "test-pwd",
   "image": [
     "index.qiniu.com/spock/docker-client",
     "index.qiniu.com/spock/golang:1.7"
