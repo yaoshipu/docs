@@ -34,8 +34,7 @@ PUT /api/repos/:owner/:name/secrets
 
 ##### 正常返回
 
-
-```
+```json
 {
   "id": 22,
   "name": "test-secret",
