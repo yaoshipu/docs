@@ -58,5 +58,10 @@
   * [更新服务配置项](APIs/keystore/update_keystore.md)
   * [列出服务配置项](APIs/keystore/list_keystore.md)
   * [删除服务配置项](APIs/keystore/delete_keystore.md)
-
+* [6. 构建管理接口](APIs/reaper/README.md)
+  * [查询Git仓库配置](APIs/reaper/get_repo.md)
+  * [列出Git仓库配置](APIs/reaper/list_repo.md)
+  * [更新Git仓库配置](APIs/reaper/update_repo.md)
+  * [激活Git仓库配置](APIs/reaper/activate_repo.md)
+  * [删除Git仓库配置](APIs/reaper/delete_repo.md)
 
