@@ -3,11 +3,12 @@
 #### 注意事项
 
 - 需要`admin`权限
+- 添加用户下面所有 Repos 的 Secret Images, 如果找不到对应的 secret 则忽略
 
 #### 请求
 
 ```
-
+PUT /api/secrets/:name/images
 ```
 
 ##### 请求参数
