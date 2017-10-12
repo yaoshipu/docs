@@ -34,8 +34,17 @@ POST /api/repos/:owner/:name/secrets
 
 ##### 正常返回
 
-```
-200 OK
-```
-
+```json
+{
+  "id": 22,
+  "name": "test-secret",
+  "image": [
+    "index.qiniu.com/spock/docker-client",
+    "index.qiniu.com/spock/golang:1.7"
+  ],
+  "event": [
+    "pull_request"
+  ]
+}
+```	
 ##### 错误返回
