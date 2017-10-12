@@ -64,4 +64,8 @@
   * [更新Git仓库配置](APIs/reaper/update_repo.md)
   * [激活Git仓库配置](APIs/reaper/activate_repo.md)
   * [删除Git仓库配置](APIs/reaper/delete_repo.md)
+  * [查询密钥配置](APIs/reaper/get_secret.md)
+  * [列出密钥配置](APIs/reaper/list_secret.md)
+  * [更新密钥配置](APIs/reaper/update_secret.md)
+  * [删除密钥配置](APIs/reaper/delete_secret.md)
 
