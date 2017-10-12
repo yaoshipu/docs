@@ -16,6 +16,10 @@ GET /api/repos/:owner/:name/secrets
 
 ##### 参数说明
 
+|参数|说明|
+|---|---|
+|owner|Github用户|
+|name|Github仓库名称|
 
 ##### 正常返回
 
