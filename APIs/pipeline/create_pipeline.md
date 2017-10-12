@@ -26,7 +26,7 @@ POST /api/v2/pipelines
       "branch": "dev",
       "pull_request_number": 123,
       "commit_id": "456",
-      "commit_message": "commit message",
+      "bin": "spock-backend",
       "image": "index.qiniu.com/spocktest/spock-backend:1.0.3",
       "package_file": "build service kodo package file",
       "timeout": 7200
