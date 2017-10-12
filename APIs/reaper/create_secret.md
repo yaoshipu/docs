@@ -46,5 +46,6 @@ POST /api/repos/:owner/:name/secrets
     "pull_request"
   ]
 }
-```	
+```
+	
 ##### 错误返回
