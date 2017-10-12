@@ -9,12 +9,12 @@
 #### 请求
 
 ```
-POST /api/repos/:owner/:name/secrets
+PUT /api/repos/:owner/:name/secrets
 ```
 
 ##### 请求参数
 
-```json
+```
 {
   "name": "test-secret",
   "value": "test-pwd",
@@ -34,10 +34,12 @@ POST /api/repos/:owner/:name/secrets
 
 ##### 正常返回
 
-```json
+
+```
 {
   "id": 22,
   "name": "test-secret",
+  "value": "test-pwd",
   "image": [
     "index.qiniu.com/spock/docker-client",
     "index.qiniu.com/spock/golang:1.7"
@@ -46,6 +48,6 @@ POST /api/repos/:owner/:name/secrets
     "pull_request"
   ]
 }
-```
+```	
 	
 ##### 错误返回
