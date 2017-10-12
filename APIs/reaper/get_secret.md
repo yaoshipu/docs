@@ -2,12 +2,12 @@
 
 #### 注意事项
 
-- 需要`user`权限
+- 需要`admin`权限
 
 #### 请求
 
 ```
-
+GET /api/repos/:owner/:name/secrets/:secretName
 ```
 
 ##### 请求参数
