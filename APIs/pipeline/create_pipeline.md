@@ -61,10 +61,6 @@ POST /api/v2/pipelines
     },
     {
       "type": "jira",
-      "timeout": 600
-    },
-    {
-      "type": "jira",
       "repo_owner": "qbox",
       "repo_name": "aslan-platform",
       "pull_request_number": 123,
