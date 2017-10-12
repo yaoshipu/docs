@@ -1,13 +1,13 @@
-## xxx
+## 查询Repo
 
 #### 注意事项
 
-- 需要`user`权限
+- 需要`admin`权限
 
 #### 请求
 
 ```
-
+GET /api/repos/:owner/:name
 ```
 
 ##### 请求参数
@@ -16,11 +16,35 @@
 
 ##### 参数说明
 
+|参数|说明|
+|---|---|
+|owner|Github用户|
+|name|Github仓库名称|
 
 ##### 正常返回
 
-```
-200 OK
+```json
+{
+    "id": 16,
+    "owner": "yaoshipu",
+    "name": "aone",
+    "full_name": "yaoshipu/aone",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13618151?v=4",
+    "link_url": "https://github.com/yaoshipu/aone",
+    "scm": "git",
+    "clone_url": "https://github.com/yaoshipu/aone.git",
+    "default_branch": "develop",
+    "timeout": 60,
+    "visibility": "private",
+    "private": true,
+    "trusted": true,
+    "gated": false,
+    "allow_pr": true,
+    "allow_push": true,
+    "allow_deploys": true,
+    "allow_tags": true,
+    "config_file": ".drone.yml"
+}
 ```
 
 ##### 错误返回
