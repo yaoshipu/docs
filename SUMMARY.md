@@ -70,8 +70,8 @@
   * [删除密钥配置](APIs/reaper/delete_secret.md)
   * [批量创建密钥配置](APIs/reaper/create_repo_secret.md)
   * [批量更新密钥配置](APIs/reaper/update_repo_secret.md)
-  * [批量删除密钥配置](APIs/reaper/list_repo.md)
-  * [批量添加密钥镜像配置](APIs/reaper/activate_repo.md)
-  * [批量删除密钥镜像配置](APIs/reaper/delete_repo.md)
+  * [批量删除密钥配置](APIs/reaper/delete_repo_secret.md)
+  * [批量添加密钥镜像配置](APIs/reaper/add_repo_secret_images.md)
+  * [批量删除密钥镜像配置](APIs/reaper/delete_repo_secret_images.md)
   
 
