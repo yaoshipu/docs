@@ -3,11 +3,12 @@
 #### 注意事项
 
 - 需要`admin`权限
+- 删除用户下面所有 Repos Secret, 如果找不到对应的 secret 则忽略
 
 #### 请求
 
 ```
-
+DELETE /api/secrets/:name
 ```
 
 ##### 请求参数
