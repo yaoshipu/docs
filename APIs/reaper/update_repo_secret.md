@@ -15,7 +15,7 @@ PUT /api/secrets/:name
 
 ```json
 {
-  "value": "secret-value"
+    "value": "secret-value"
 }
 ```
 
