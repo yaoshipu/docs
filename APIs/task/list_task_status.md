@@ -21,18 +21,29 @@ GET /api/v2/tasks/status
 ##### 正常返回
 
 ```json
-[
+{
   "test-pipeline": {
     "lastest_task": {
       "task_id": 23,
       "task_creator": "yaoshipu",
       "pipeline_name": "test-pipeline",
       "status": "passed",
-      "created": 1507719109,
-      "started": 1507721237,
-      "updated": 1507721240
+      "create_time": 1507278250,
+      "start_time": 1507278250,
+      "end_time": 1507278254
+    },
+    "last_task_success": {
+      "task_id": 23,
+      "task_creator": "yaoshipu",
+      "pipeline_name": "test-pipeline",
+      "status": "passed",
+      "create_time": 1507278250,
+      "start_time": 1507278250,
+      "end_time": 1507278254
+    },
+    "last_task_failure": null
   }
-]
+}
 ```
 
 ##### 错误返回
