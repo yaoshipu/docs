@@ -15,7 +15,7 @@ PUT /api/secrets/:name/images
 
 ```json
 {
-  "images": ["index.qiniu.com/spock/docker-client", "index.qiniu.com/spock/golang:1.7"]
+    "images": ["index.qiniu.com/spock/docker-client", "index.qiniu.com/spock/golang:1.7"]
 }
 ```
 
