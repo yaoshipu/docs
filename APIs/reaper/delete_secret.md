@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-
+DELETE /api/repos/:owner/:name/secrets/:secretName
 ```
 
 ##### 请求参数
