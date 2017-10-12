@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-
+POST /api/repos/:owner/:name/secrets
 ```
 
 ##### 请求参数
