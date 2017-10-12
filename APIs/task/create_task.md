@@ -14,13 +14,22 @@ POST /api/tasks
 
 ```json
 {
-    "pipeline_name": "pipeline-1",
-    "repo_name": "aslan-platform",
-    "repo_owner": "yaoshipu",
-    "branch": "develop",
-    "pull_request_number": 62,
-    "commit_id": "98a663e5a6effc9337a29353acf338d484ae1609",
-    "deploy_env", "zhujiali"
+  "type": "pipeline",
+  "pipeline_name": "demo-pipeline",
+  "sub_tasks": [
+    {
+      "type": "build",
+      "repo_owner": "yaoshipu",
+      "repo_name": "sample-helloworld",
+      "branch": "master",
+      "pull_request_number": 6,
+      "commit_id": "e96fb0b53ff1895354c1b1276e4536a6a7b1bd74",
+      "commit_message": "test drone yml update",
+      "image": "image full name",
+      "package_file": "build service kodo package file",
+      "timeout": 7200
+    }
+  ]
 }
 ```
 
