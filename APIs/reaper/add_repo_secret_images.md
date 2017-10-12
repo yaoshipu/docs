@@ -3,7 +3,7 @@
 #### 注意事项
 
 - 需要`admin`权限
-- 添加用户下面所有 Repos 的 Secret Images, 如果找不到对应的 secret 则忽略
+- 添加用户下面所有Git仓库指定密钥的images值, 如果找不到对应的 secret 则忽略
 
 #### 请求
 
@@ -21,6 +21,9 @@ PUT /api/secrets/:name/images
 
 ##### 参数说明
 
+|参数|说明|
+|---|---|
+|name|密钥名称|
 
 ##### 正常返回
 
