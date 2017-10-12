@@ -19,15 +19,54 @@ POST /api/tasks
   "sub_tasks": [
     {
       "type": "build",
-      "repo_owner": "yaoshipu",
-      "repo_name": "sample-helloworld",
-      "branch": "master",
-      "pull_request_number": 6,
-      "commit_id": "e96fb0b53ff1895354c1b1276e4536a6a7b1bd74",
-      "commit_message": "test drone yml update",
-      "image": "image full name",
+      "repo_owner": "qbox",
+      "repo_name": "aslan-platform",
+      "branch": "dev",
+      "pull_request_number": 123,
+      "commit_id": "456",
+      "commit_message": "commit message",
+      "image": "index.qiniu.com/spocktest/spock-backend:1.0.3",
       "package_file": "build service kodo package file",
       "timeout": 7200
+    },
+    {
+      "type": "deploy",
+      "namespace": "yaoshipu",
+      "product_name": "spock-kube",
+      "group_name": "spock-kube",
+      "service_name": "spock-backend",
+      "container_name": "spock-backend",
+      "image": "same as previous build task value",
+      "package_file": "same as previous build task value",
+      "timeout": 600
+    },
+    {
+      "type": "testing",
+      "product_name": "spock-kube",
+      "group_name": "spock-test",
+      "service_name": "spock-backend-test",
+      "container_name": "spock-backend-test",
+      "threshold": 90,
+      "command": "command to run test",
+      "result_path": "test result path",
+      "timeout": 3600
+    },
+    {
+      "type": "distribute",
+      "dist_host": "jumpbox",
+      "package_file": "same as previous build task value",
+      "timeout": 600
+    },
+    {
+      "type": "jira",
+      "timeout": 600
+    },
+    {
+      "type": "jira",
+      "repo_owner": "qbox",
+      "repo_name": "aslan-platform",
+      "pull_request_number": 123,
+      "timeout": 600
     }
   ]
 }
