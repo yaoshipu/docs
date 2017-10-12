@@ -17,6 +17,11 @@ DELETE /api/secrets/:name/images
 
 ##### 参数说明
 
+```json
+{
+  "iamges": "index.qiniu.com/spock/docker-client"
+}
+```
 
 ##### 正常返回
 
