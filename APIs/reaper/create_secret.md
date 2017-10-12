@@ -3,6 +3,8 @@
 #### 注意事项
 
 - 需要`admin`权限
+- event: 可选择的event为 pull_request, push, tag, deployment. 默认选择为 pull_request  
+- image: 授权注入secrets的镜像名称
 
 #### 请求
 
