@@ -13,7 +13,11 @@ PUT /api/secrets/:name/images
 
 ##### 请求参数
 
-无
+```json
+{
+  "images": ["index.qiniu.com/spock/docker-client", "index.qiniu.com/spock/golang:1.7"]
+}
+```
 
 ##### 参数说明
 
