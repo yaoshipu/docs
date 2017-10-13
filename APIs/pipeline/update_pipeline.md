@@ -26,7 +26,7 @@ PUT /api/v2/pipelines/:name
       "branch": "dev",
       "pull_request_id": 1234,
       "commit_id": "456",
-      "commit_message": "commit message",
+      "bin": "spock-backend",
       "image": "image full name",
       "package_file": "build service kodo package file",
       "timeout": 7200
@@ -55,10 +55,14 @@ PUT /api/v2/pipelines/:name
     {
       "type": "distribute",
       "dist_host": "jumpbox",
+      "package_file": "same as previous build task value",
       "timeout": 600
     },
     {
       "type": "jira",
+      "repo_owner": "qbox",
+      "repo_name": "aslan-platform",
+      "pull_request_number": 123,
       "timeout": 600
     }
   ]
