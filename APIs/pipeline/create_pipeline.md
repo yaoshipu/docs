@@ -3,17 +3,6 @@
 #### 注意事项
 
 - 需要`admin`权限
-- image格式
-  - 格式1: index.qiniu.com/spocktest/spock-backend:20171010142156-develop
-  - 格式2: index.qiniu.com/spocktest/spock-backend:20171010142156-pr123
-  - spock-backend 为二进制或者服务名称
-  - 20171010142156 为时间戳精确到秒
-  - develop 为分支名称
-  - pr123 为Git PR
-
-- package_file 格式
-  - spock-backend-20171010142156-develop.tar.gz
-  - spock-backend-20171010142156-pr123.tar.gz
 
 #### 请求
 
@@ -35,11 +24,7 @@ POST /api/v2/pipelines
       "repo_owner": "qbox",
       "repo_name": "aslan-platform",
       "branch": "dev",
-      "pull_request_number": 123,
-      "commit_id": "456",
       "bin": "spock-backend",
-      "image": "index.qiniu.com/spocktest/spock-backend:1.0.3",
-      "package_file": "build service kodo package file",
       "timeout": 7200
     },
     {
@@ -49,8 +34,6 @@ POST /api/v2/pipelines
       "group_name": "spock-kube",
       "service_name": "spock-backend",
       "container_name": "spock-backend",
-      "image": "same as previous build task value",
-      "package_file": "same as previous build task value",
       "timeout": 600
     },
     {
@@ -67,14 +50,12 @@ POST /api/v2/pipelines
     {
       "type": "distribute",
       "dist_host": "jumpbox",
-      "package_file": "same as previous build task value",
       "timeout": 600
     },
     {
       "type": "jira",
       "repo_owner": "qbox",
       "repo_name": "aslan-platform",
-      "pull_request_number": 123,
       "timeout": 600
     }
   ]

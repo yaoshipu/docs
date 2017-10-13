@@ -3,6 +3,17 @@
 #### 注意事项
 
 - 需要`user`权限
+- image格式
+  - 格式1: index.qiniu.com/spocktest/spock-backend:20171010142156-develop
+  - 格式2: index.qiniu.com/spocktest/spock-backend:20171010142156-pr123
+  - spock-backend 为二进制或者服务名称
+  - 20171010142156 为时间戳精确到秒
+  - develop 为分支名称
+  - pr123 为Git PR
+
+- package_file 格式
+  - spock-backend-20171010142156-develop.tar.gz
+  - spock-backend-20171010142156-pr123.tar.gz
 
 #### 请求
 
