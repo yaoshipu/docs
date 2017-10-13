@@ -8,6 +8,8 @@
 
 ```
 GET /api/v2/tasks/id/:id/pipelines/:name
+GET /api/v2/tasks/id/:id/pipelines/:name/ws
+
 ```
 
 ##### 请求参数
