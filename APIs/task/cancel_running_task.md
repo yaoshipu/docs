@@ -8,7 +8,7 @@
 #### 请求
 
 ```
-POST /api/v2/tasks/id/:id/pipelines/:name/cancel
+DELETE /api/v2/tasks/id/:id/pipelines/:name/running
 ```
 
 ##### 请求参数
