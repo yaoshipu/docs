@@ -21,29 +21,18 @@ GET /api/v2/status/agents
 ##### 正常返回
 
 ```json
-{
-  "test-pipeline": {
-    "lastest_task": {
-      "task_id": 23,
-      "task_creator": "yaoshipu",
-      "pipeline_name": "test-pipeline",
-      "status": "passed",
-      "create_time": 1507278250,
-      "start_time": 1507278250,
-      "end_time": 1507278254
-    },
-    "last_task_success": {
-      "task_id": 23,
-      "task_creator": "yaoshipu",
-      "pipeline_name": "test-pipeline",
-      "status": "passed",
-      "create_time": 1507278250,
-      "start_time": 1507278250,
-      "end_time": 1507278254
-    },
-    "last_task_failure": null
+[
+  {
+    "agent": "Warpdrive 130744",
+    "messages_received": 0,
+    "messages_finished": 0,
+    "messages_requeued": 0,
+    "connections": 1,
+    "is_busy": false,
+    "start_time": 1507957664,
+    "update_time": 1507957753
   }
-}
+]
 ```
 
 ##### 错误返回
