@@ -20,7 +20,9 @@ POST /api/templates/products
   "groups": [
     "group-A", "group-B"
   ],
-  "enabled": true
+  "enabled": true,
+  "visibility": "public",
+  "description": "description"
 }
 ```
 
@@ -31,6 +33,8 @@ POST /api/templates/products
 | product_name | 产品名称，全局唯一 |
 | groups | 产品依赖服务组，服务组按配置的先后顺序启动 |
 | enabled | 是否启用模版, 暂时没有使用 |
+| visibility | 其他用户是否可见，参数为 public private |
+| description | 描述 |
 
 ##### 正常返回
 
