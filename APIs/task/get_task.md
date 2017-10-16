@@ -40,16 +40,25 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
       "branch": "master",
       "commit_id": "e96fb0b53ff1895354c1b1276e4536a6a7b1bd74",
       "commit_message": "test drone yml update",
-      "debug_run_time": 0,
-      "debug_status": "",
       "image": "image full name",
       "package_file": "build service kodo package file",
       "pull_request_id": 6,
-      "reaper_build_nubmer": 130,
       "repo_name": "sample-helloworld",
       "repo_owner": "yaoshipu",
       "service_name": "",
       "status": "cancelled",
+      "reaper_build_nubmer": 127,
+      "reaper_procs": [
+        {
+          "job_id": 1,
+          "prod_names": [
+            "aslan-platform.git",
+            "backend_build",
+            "frontend_build",
+            "publish"
+          ]
+        }
+      ],
       "timeout": 3600,
       "type": "build"
     }
