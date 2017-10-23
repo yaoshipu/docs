@@ -14,8 +14,7 @@ POST /api/image
 
 ```json
 {
-  "kind": "pod",
-  "resource_name": "pod_name",
+  "selector": "s-group=spock-nsq,s-product=spock-portalv4,s-service=nsqadmin",
   "container_name": "container_name",
   "image": "image_full_name"
 }
@@ -25,8 +24,7 @@ POST /api/image
 
 |参数|描述|
 |---|---|
-|kind|kube资源类型|
-|resource_name|kube资源名称|
+|selector|查询条件|
 |container_name|容器名称|
 |image|镜像|
 
