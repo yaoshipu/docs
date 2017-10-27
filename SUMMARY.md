@@ -35,6 +35,7 @@
   * [更新容器镜像](APIs/product/update_container_image.md)
   * [扩容服务](APIs/product/scale_service.md)
   * [查询服务Pod](APIs/product/get_service_pod.md)
+  * [列出服务Pods](APIs/product/list_service_pods.md)
   * [查询服务配置文件](APIs/product/get_configmap.md)
   * [列出镜像](APIs/product/list_image.md)
   * [容器实时日志](APIs/product/container_log_ws.md)
