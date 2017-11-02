@@ -34,6 +34,7 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
   "create_time": 1507111692,
   "start_time": 1507111694,
   "end_time": 1507111692,
+  "agent_host": "spock-dev-spock-warpdrive-535674158-bxw57",
   "sub_tasks": [
     {
       "branch": "master",
@@ -59,6 +60,8 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
         }
       ],
       "timeout": 3600,
+      "start_time": 1507111694,
+      "end_time": 1507111692,
       "type": "build"
     }
   ]
