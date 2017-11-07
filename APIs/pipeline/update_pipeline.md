@@ -43,14 +43,17 @@ PUT /api/v2/pipelines/:name
     },
     {
       "type": "testing",
-      "product_name": "spock-kube",
-      "group_name": "spock-test",
-      "service_name": "spock-backend-test",
-      "container_name": "spock-backend-test",
+      "test_image": "index.qiniu.com/spocktest/spock-tricorder:1.0.0",
+      "test_job_name": "spock-test",
+      "repo": "aslan-platform",
+      "owner": "qbox",
+      "branch": "develop",
       "threshold": 90,
-      "command": "command to run test",
+      "script": "command to run test",
       "result_path": "test result path",
+      "workspace": "/workspace",
       "timeout": 3600
+
     },
     {
       "type": "distribute",
