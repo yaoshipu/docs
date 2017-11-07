@@ -53,15 +53,17 @@ GET /api/v2/pipelines
         "type": "deploy"
       },
       {
-        "command": "command to run test",
-        "container_name": "spock-backend-test",
-        "group_name": "spock-test",
-        "product_name": "spock-kube",
-        "result_path": "test result path",
-        "service_name": "spock-backend-test",
+        "type": "testing",
+        "test_image": "index.qiniu.com/spocktest/spock-tricorder:1.0.0",
+        "test_job_name": "spock-test",
+        "repo": "aslan-platform",
+        "owner": "qbox",
+        "branch": "develop",
         "threshold": 90,
-        "timeout": 3600,
-        "type": "testing"
+        "script": "command to run test",
+        "result_path": "test result path",
+        "workspace": "/workspace",
+        "timeout": 3600
       },
       {
         "dist_host": "jumpbox",
