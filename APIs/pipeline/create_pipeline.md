@@ -38,10 +38,11 @@ POST /api/v2/pipelines
     },
     {
       "type": "testing",
-      "product_name": "spock-kube",
-      "group_name": "spock-test",
-      "service_name": "spock-backend-test",
-      "container_name": "spock-backend-test",
+      "test_image": "index.qiniu.com/spocktest/spock-tricorder:1.0.0",
+      "test_job_name": "spock-test",
+      "repo": "aslan-platform",
+      "owner": "qbox",
+      "branch": "develop",
       "threshold": 90,
       "command": "command to run test",
       "result_path": "test result path",
@@ -67,6 +68,7 @@ POST /api/v2/pipelines
 |参数|说明|
 |---|---|
 |timeout|任务超时时间, 单位秒|
+|test_job_name|单个用户唯一|
 
 ##### 正常返回
 
