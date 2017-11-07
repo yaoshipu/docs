@@ -44,8 +44,9 @@ POST /api/v2/pipelines
       "owner": "qbox",
       "branch": "develop",
       "threshold": 90,
-      "command": "command to run test",
+      "script": "command to run test",
       "result_path": "test result path",
+      "workspace": "/workspace",
       "timeout": 3600
     },
     {
