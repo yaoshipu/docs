@@ -39,7 +39,7 @@
   * [查询服务配置文件](APIs/product/get_configmap.md)
   * [列出镜像](APIs/product/list_image.md)
   * [容器实时日志](APIs/product/container_log_ws.md)
-  * [查询服务容器是否存在](APIs/product/get_service_container.md)
+  * [检查服务容器](APIs/product/get_service_container.md)
 * [3. Pipeline管理接口](APIs/pipeline/README.md)
   * [创建Pipeline](APIs/pipeline/create_pipeline.md)
   * [更新Pipeline](APIs/pipeline/update_pipeline.md)
