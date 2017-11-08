@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-WS /api/logs/ws/pods/:podName/containers/:containerName
+WS /api/logs/ws/pipelines/:pipelineName/tasks/:taskId/tests/:testName
 ```
 ##### 请求参数
 
@@ -17,8 +17,9 @@ WS /api/logs/ws/pods/:podName/containers/:containerName
 
 |参数|说明|
 |---|---|
-|podName|服务Pod名称|
-|containerName|容器名称|
+|pipelineName|pipeline名称|
+|taskId|任务id|
+|testName|测试job名称|
 
 ##### 正常返回
 
