@@ -7,8 +7,9 @@
 #### 请求
 
 ```
-GET /api/logs/ws/pods/:podName/containers/:containerName
+GET /api/logs/pipelines/:pipelineName/tasks/:taskId/tests/:testName
 ```
+
 ##### 请求参数
 
 无
