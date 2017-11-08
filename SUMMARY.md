@@ -56,6 +56,8 @@
   * [列出任务](APIs/task/list_task.md)
   * [列出任务状态](APIs/task/list_task_status.md)
   * [列出Agent状态](APIs/task/list_agent_status.md)
+  * [测试任务日志](APIs/task/test_job_logs.md)
+  * [测试任务实时日志](APIs/task/test_job_logs_ws.md)
 * [5. 服务配置接口](APIs/keystore/README.md)
   * [创建服务配置项](APIs/keystore/create_keystore.md)
   * [更新服务配置项](APIs/keystore/update_keystore.md)
