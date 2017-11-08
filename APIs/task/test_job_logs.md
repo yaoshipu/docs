@@ -18,8 +18,9 @@ GET /api/logs/pipelines/:pipelineName/tasks/:taskId/tests/:testName
 
 |参数|说明|
 |---|---|
-|podName|服务Pod名称|
-|containerName|容器名称|
+|pipelineName|pipeline名称|
+|taskId|任务id|
+|testName|测试job名称|
 
 ##### 正常返回
 
