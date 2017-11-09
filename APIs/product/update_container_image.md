@@ -14,7 +14,9 @@ POST /api/image
 
 ```json
 {
-  "selector": "s-group=spock-nsq,s-product=spock-portalv4,s-service=nsqadmin",
+  "product_name": "product",
+  "group_name": "group",
+  "service_name": "service",
   "container_name": "container_name",
   "image": "image_full_name"
 }
