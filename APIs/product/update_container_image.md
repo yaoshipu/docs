@@ -24,7 +24,9 @@ POST /api/image
 
 |参数|描述|
 |---|---|
-|selector|查询条件|
+|product_name|产品名称|
+|group_name|服务组名称|
+|service_name|服务名称|
 |container_name|容器名称|
 |image|镜像|
 
