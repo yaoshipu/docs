@@ -38,6 +38,14 @@ POST /api/tasks
       "bin": "spock-backend",
       "image": "index.qiniu.com/spocktest/spock-backend:1.0.3",
       "package_file": "build service kodo package file",
+      "dependency_builds": [
+        {
+          "repo_owner": "qbox",
+          "repo_name": "aslan-platform",
+          "branch": "master",
+          "pull_request_number": 11
+        }
+      ]
       "timeout": 7200
     },
     {
