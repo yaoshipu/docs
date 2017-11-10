@@ -25,7 +25,15 @@ POST /api/v2/pipelines
       "repo_name": "aslan-platform",
       "branch": "dev",
       "bin": "spock-backend",
-      "timeout": 7200
+      "timeout": 7200,
+      "dependency_builds": [
+        {
+          "repo_owner": "qbox",
+          "repo_name": "aslan-platform",
+          "branch": "master",
+          "pull_request_number": 11
+        }
+      ]
     },
     {
       "type": "deploy",
