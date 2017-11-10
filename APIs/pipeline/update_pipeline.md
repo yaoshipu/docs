@@ -29,6 +29,14 @@ PUT /api/v2/pipelines/:name
       "bin": "spock-backend",
       "image": "image full name",
       "package_file": "build service kodo package file",
+      "dependency_builds": [
+        {
+          "repo_owner": "qbox",
+          "repo_name": "aslan-platform",
+          "branch": "master",
+          "pull_request_number": 11
+        }
+      ]
       "timeout": 7200
     },
     {

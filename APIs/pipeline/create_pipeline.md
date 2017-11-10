@@ -30,8 +30,7 @@ POST /api/v2/pipelines
         {
           "repo_owner": "qbox",
           "repo_name": "aslan-platform",
-          "branch": "master",
-          "pull_request_number": 11
+          "branch": "master"
         }
       ]
     },
