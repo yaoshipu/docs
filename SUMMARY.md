@@ -45,7 +45,7 @@
   * [列出Pipeline](APIs/pipeline/list_pipeline.md)
   * [查询Pipeline](APIs/pipeline/get_pipeline.md)
   * [删除Pipeline](APIs/pipeline/delete_pipeline.md)
-  * [检查服务容器](APIs/product/get_service_container.md)
+  * [检查服务容器](APIs/pipeline/get_service_container.md)
 * [4. 任务管理接口](APIs/task/README.md)
   * [创建任务](APIs/task/create_task.md)
   * [查询任务](APIs/task/get_task.md)
