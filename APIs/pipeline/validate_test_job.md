@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/v2/tests/:name
+GET /api/v2/tests/:name/validate
 ```
 
 ##### 请求参数
