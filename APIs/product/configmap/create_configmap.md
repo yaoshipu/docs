@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/configmaps/:name
+GET /api/configmaps
 ```
 
 ##### 请求参数
