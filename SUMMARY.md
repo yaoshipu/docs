@@ -36,7 +36,7 @@
   * [扩容服务](APIs/product/scale_service.md)
   * [删除服务Pod](APIs/product/delete_pod.md)
   * [列出服务Pods](APIs/product/list_service_pods.md)
-  * [查询服务配置文件](APIs/product/get_configmap.md)
+  * [查询服务配置文件Legacy](APIs/product/get_configmap_legacy.md)
   * [列出镜像](APIs/product/list_image.md)
   * [容器实时日志](APIs/product/container_log_ws.md)
 * [3. Pipeline管理接口](APIs/pipeline/README.md)
