@@ -1,4 +1,4 @@
-## 查询服务配置
+# 查询服务配置
 
 #### 注意事项
 
@@ -20,7 +20,7 @@ GET /api/configmaps/:name
 
 ##### 正常返回
 
-```json
+```
 {
   "name": "apps-api-configmap",
   "age": "27d",
