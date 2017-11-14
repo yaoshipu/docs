@@ -14,7 +14,6 @@ GET /api/configmaps/:name
 
 ```
 {
-    "name": "apps-api-configmap",
     "data": {
         "key": "value"
     }
