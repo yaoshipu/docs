@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/configmaps/:name
+DELETE /api/configmaps/:name
 ```
 
 ##### 请求参数
