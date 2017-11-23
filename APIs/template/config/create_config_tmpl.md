@@ -8,22 +8,20 @@
 #### 请求
 
 ```
-POST /api/templates/groups
+POST /api/templates/configs
 ```
 
 ##### 请求参数
 
 ```json
 {
-  "group_name": "group-A",
-  "services": [
-    [
-      "service-1",
-      "service-2"
-    ],
-    [
-      "service-3"
-    ]
+  "config_name": "config1",
+  "service_name": "svc1",
+  "data": [
+    {
+      "key": "key1",
+      "value": "value1"
+    }
   ]
 }
 ```
