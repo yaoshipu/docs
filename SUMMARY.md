@@ -43,7 +43,7 @@
     * [删除服务Pod](APIs/product/delete_pod.md)
     * [列出服务Pods](APIs/product/list_service_pods.md)
     * [查询服务配置文件Legacy](APIs/product/get_configmap_legacy.md)
-  * #### 服务配置(APIs/product/configmap/README.md)
+  * #### 配置(APIs/product/configmap/README.md)
     * [查询服务配置](APIs/product/configmap/get_configmap.md)
     * [列出服务配置](APIs/product/configmap/list_configmaps.md)
     * [创建服务配置](APIs/product/configmap/create_configmap.md)
