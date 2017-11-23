@@ -25,6 +25,11 @@
     * [查询服务模板](APIs/template/get_service_tmpl.md)
     * [删除服务模板](APIs/template/delete_service_tmpl.md)
     * [检查服务模板Yaml](APIs/template/validate_service_yaml.md)
+  * #### 配置模板
+    * [创建配置模板](APIs/template/create_config_tmpl.md)
+    * [列出配置模板](APIs/template/list_config_tmpl.md)
+    * [查询配置模板](APIs/template/get_config_tmpl.md)
+    * [删除配置模板](APIs/template/delete_config_tmpl.md)
 * ### [2. 产品管理接口](APIs/product/README.md)
   * #### 产品
     * [创建产品](APIs/product/create_product.md)
