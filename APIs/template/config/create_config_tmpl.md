@@ -30,8 +30,9 @@ POST /api/templates/configs
 
 | 参数 | 描述 |
 |-----|-----|
-| group_name | 服务组名称，全局唯一 |
-| services | 服务组依赖服务，服务按配置的先后顺序启动 |
+| config_name | 配置名称，用户唯一 |
+| service_name | 配置属于的服务 |
+| data | 配置内容 |
 
 ##### 正常返回
 
