@@ -43,14 +43,16 @@
     * [删除服务Pod](APIs/product/delete_pod.md)
     * [列出服务Pods](APIs/product/list_service_pods.md)
     * [查询服务配置文件Legacy](APIs/product/get_configmap_legacy.md)
+    * [列出镜像](APIs/product/list_image.md)
+    * [容器实时日志](APIs/product/container_log_ws.md)
+
   * #### 配置(APIs/product/configmap/README.md)
     * [查询服务配置](APIs/product/configmap/get_configmap.md)
     * [列出服务配置](APIs/product/configmap/list_configmaps.md)
     * [创建服务配置](APIs/product/configmap/create_configmap.md)
     * [更新服务配置](APIs/product/configmap/update_configmap.md)
     * [删除服务配置](APIs/product/configmap/delete_configmap.md)
-  * [列出镜像](APIs/product/list_image.md)
-  * [容器实时日志](APIs/product/container_log_ws.md)
+ 
 * [3. Pipeline管理接口](APIs/pipeline/README.md)
   * [创建Pipeline](APIs/pipeline/create_pipeline.md)
   * [更新Pipeline](APIs/pipeline/update_pipeline.md)
