@@ -13,13 +13,13 @@
     * [列出产品模板](APIs/template/list_product_tmpl.md)
     * [查询产品模板](APIs/template/get_product_tmpl.md)
     * [删除产品模板](APIs/template/delete_product_tmpl.md)
-  * ##### 服务组模板接口
+  * #### 服务组模板接口
     * [创建服务组模板](APIs/template/create_group_tmpl.md)
     * [更新服务组模板](APIs/template/update_group_tmpl.md)
     * [列出服务组模板](APIs/template/list_group_tmpl.md)
     * [查询服务组模板](APIs/template/get_group_tmpl.md)
     * [删除服务组模板](APIs/template/delete_group_tmpl.md)
-  * 服务组模板接口
+  * #### 服务组模板接口
     * [创建服务模板](APIs/template/create_service_tmpl.md)
     * [列出服务模板名称](APIs/template/list_service_tmpl.md)
     * [查询服务模板](APIs/template/get_service_tmpl.md)
