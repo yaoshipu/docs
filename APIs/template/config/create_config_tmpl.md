@@ -45,7 +45,7 @@ POST /api/templates/configs
 ```json
 {
   "code": "400",
-  "message" : "invalid GroupTmpl json args",
+  "message" : "invalid ConfigTmpl json args",
   "description": "Bad Request"
 }
 ```
