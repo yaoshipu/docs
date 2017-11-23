@@ -27,11 +27,12 @@
     * [检查服务模板Yaml](APIs/template/validate_service_yaml.md)
 * ### [2. 产品管理接口](APIs/product/README.md)
   * #### 产品接口
-  * [创建产品](APIs/product/create_product.md)
-  * [更新产品](APIs/product/update_product.md)
-  * [列出产品](APIs/product/list_product.md)
-  * [删除产品](APIs/product/delete_product.md)
-  * [列出产品更新信息](APIs/product/list_product_revision.md)
+    * [创建产品](APIs/product/create_product.md)
+    * [更新产品](APIs/product/update_product.md)
+    * [列出产品](APIs/product/list_product.md)
+    * [删除产品](APIs/product/delete_product.md)
+    * [列出产品更新信息](APIs/product/list_product_revision.md)
+  * #### 服务组接口
   * [列出服务组](APIs/product/list_group.md)
   * [查询服务组](APIs/product/get_group.md)
   * [查询服务](APIs/product/get_service.md)
