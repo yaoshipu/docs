@@ -35,7 +35,7 @@
   * #### 服务组接口
     * [列出服务组](APIs/product/list_group.md)
     * [查询服务组](APIs/product/get_group.md)
-  * #### 服务接口
+  * #### 服务操作
     * [查询服务](APIs/product/get_service.md)
     * [重启服务](APIs/product/restart_service.md)
     * [更新容器镜像](APIs/product/update_container_image.md)
