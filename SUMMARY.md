@@ -7,7 +7,7 @@
 ## API接口文档
 
 * ### [1. 模板管理接口](APIs/template/README.md)
-  * ##### 产品模板接口
+  * #### 产品模板接口
     * [创建产品模板](APIs/template/create_product_tmpl.md)
     * [更新产品模板](APIs/template/update_product_tmpl.md)
     * [列出产品模板](APIs/template/list_product_tmpl.md)
