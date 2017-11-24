@@ -24,7 +24,7 @@ GET /api/templates/configs/:name/services/:service/revisions/:revision
 
 ##### 正常返回
 
-```
+```json
 {
   "config_name": "test2",
   "service_name": "svc2",
