@@ -8,7 +8,7 @@
 #### 请求
 
 ```
-GET /api/templates/configs/:name/services/:service
+DELETE /api/templates/configs/:name/services/:service
 ```
 
 ##### 请求参数
