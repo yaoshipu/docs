@@ -7,13 +7,13 @@
 ## API接口文档
 
 ### [1. 模板管理接口](APIs/template/README.md)
-  * #### 产品模板
+* #### 产品模板
     * [创建产品模板](APIs/template/product/create_product_tmpl.md)
     * [更新产品模板](APIs/template/product/update_product_tmpl.md)
     * [列出产品模板](APIs/template/product/list_product_tmpl.md)
     * [查询产品模板](APIs/template/product/get_product_tmpl.md)
     * [删除产品模板](APIs/template/product/delete_product_tmpl.md)
-  * #### 服务组模板
+* #### 服务组模板
     * [创建服务组模板](APIs/template/group/create_group_tmpl.md)
     * [更新服务组模板](APIs/template/group/update_group_tmpl.md)
     * [列出服务组模板](APIs/template/group/list_group_tmpl.md)
