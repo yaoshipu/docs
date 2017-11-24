@@ -58,7 +58,7 @@ GET /api/templates/configs
 ```json
 {
   "code":6100,
-  "message":"Get Template Error",
+  "message":"List Template Error",
   "description":"error details"
 }
 ```
