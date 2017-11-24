@@ -57,7 +57,6 @@
     * [创建服务配置](APIs/product/configmap/create_configmap.md)
     * [更新服务配置](APIs/product/configmap/update_configmap.md)
     * [删除服务配置](APIs/product/configmap/delete_configmap.md)
- 
 ### [3. Pipeline管理接口](APIs/pipeline/README.md)
   * [创建Pipeline](APIs/pipeline/create_pipeline.md)
   * [更新Pipeline](APIs/pipeline/update_pipeline.md)
