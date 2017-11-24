@@ -21,7 +21,7 @@ GET /api/templates/configs
 
 ##### 正常返回
 
-```
+```json
 [
   {
     "config": {
