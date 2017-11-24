@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-POST /api/templates/configs/:name/services/:service/revisions/:revision
+GET /api/templates/configs
 ```
 
 ##### 请求参数
@@ -16,28 +16,41 @@ POST /api/templates/configs/:name/services/:service/revisions/:revision
 
 ##### 参数说明
 
-| 参数 | 描述 |
-|-----|-----|
-| name | 配置名称 |
-| service | 配置属于的服务 |
-| revision | 版本号 |
+无
 
 ##### 正常返回
 
 ```
-{
-  "config_name": "test2",
-  "service_name": "svc2",
-  "revision": 1,
-  "create_time": 1511435111,
-  "create_by": "yaoshipu",
-  "data": [
-    {
-      "key": "key1",
-      "value": "value1"
-    }
-  ]
-}
+[
+  {
+    "config": {
+      "config_name": "test2",
+      "service_name": "svc2"
+    },
+    "revision": 4
+  },
+  {
+    "config": {
+      "config_name": "test2",
+      "service_name": "svc1"
+    },
+    "revision": 3
+  },
+  {
+    "config": {
+      "config_name": "test1",
+      "service_name": "svc2"
+    },
+    "revision": 2
+  },
+  {
+    "config": {
+      "config_name": "test1",
+      "service_name": "svc1"
+    },
+    "revision": 5
+  }
+]
 ```
 
 ##### 错误返回
