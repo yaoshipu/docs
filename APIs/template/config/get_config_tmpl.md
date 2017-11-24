@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-POST /api/templates/configs/:name/services/:service/revisions/:revision
+GET /api/templates/configs/:name/services/:service/revisions/:revision
 ```
 
 ##### 请求参数
