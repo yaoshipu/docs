@@ -8,43 +8,41 @@
 
 ### [1. 模板管理接口](APIs/template/README.md)
 
-* #### 产品模板
+* 产品模板
   * [创建产品模板](APIs/template/product/create_product_tmpl.md)
   * [更新产品模板](APIs/template/product/update_product_tmpl.md)
   * [列出产品模板](APIs/template/product/list_product_tmpl.md)
   * [查询产品模板](APIs/template/product/get_product_tmpl.md)
   * [删除产品模板](APIs/template/product/delete_product_tmpl.md)
-
-* #### 服务组模板
+* 服务组模板
   * [创建服务组模板](APIs/template/group/create_group_tmpl.md)
   * [更新服务组模板](APIs/template/group/update_group_tmpl.md)
   * [列出服务组模板](APIs/template/group/list_group_tmpl.md)
   * [查询服务组模板](APIs/template/group/get_group_tmpl.md)
   * [删除服务组模板](APIs/template/group/delete_group_tmpl.md)
-
-* #### 服务组模板
+* 服务组模板
   * [创建服务模板](APIs/template/service/create_service_tmpl.md)
   * [列出服务模板名称](APIs/template/service/list_service_tmpl.md)
   * [查询服务模板](APIs/template/service/get_service_tmpl.md)
   * [删除服务模板](APIs/template/service/delete_service_tmpl.md)
   * [检查服务模板Yaml](APIs/template/service/validate_service_yaml.md)
-* #### 配置模板
+* 配置模板
   * [创建配置模板](APIs/template/config/create_config_tmpl.md)
   * [列出配置模板](APIs/template/config/list_config_tmpl.md)
   * [查询配置模板](APIs/template/config/get_config_tmpl.md)
   * [删除配置模板](APIs/template/config/delete_config_tmpl.md)
 
 ### [2. 产品管理接口](APIs/product/README.md)
-  * #### 产品
+  * 产品
     * [创建产品](APIs/product/create_product.md)
     * [更新产品](APIs/product/update_product.md)
     * [列出产品](APIs/product/list_product.md)
     * [删除产品](APIs/product/delete_product.md)
     * [列出产品更新信息](APIs/product/list_product_revision.md)
-  * #### 服务组
+  * 服务组
     * [列出服务组](APIs/product/list_group.md)
     * [查询服务组](APIs/product/get_group.md)
-  * #### 服务
+  * 服务
     * [查询服务](APIs/product/get_service.md)
     * [重启服务](APIs/product/restart_service.md)
     * [更新容器镜像](APIs/product/update_container_image.md)
@@ -54,7 +52,7 @@
     * [查询服务配置文件Legacy](APIs/product/get_configmap_legacy.md)
     * [列出镜像](APIs/product/list_image.md)
     * [容器实时日志](APIs/product/container_log_ws.md)
-  * #### 配置(APIs/product/configmap/README.md)
+  * 配置(APIs/product/configmap/README.md)
     * [查询服务配置](APIs/product/configmap/get_configmap.md)
     * [列出服务配置](APIs/product/configmap/list_configmaps.md)
     * [创建服务配置](APIs/product/configmap/create_configmap.md)
