@@ -29,12 +29,24 @@ GET /api/templates/configs/:name/services/:service/revisions/:revision
   "config_name": "test2",
   "service_name": "svc2",
   "revision": 1,
-  "create_time": 1511435111,
+  "create_time": 1511877696,
   "create_by": "yaoshipu",
-  "data": [
+  "config_data": [
     {
-      "key": "key1",
-      "value": "value1"
+      "key": "config_key",
+      "value": "config_value"
+    }
+  ],
+  "render_data": [
+    {
+      "name": "render_key1",
+      "is_credential": false,
+      "kv": [
+        {
+          "product": "KODO",
+          "value": "render_value"
+        }
+      ]
     }
   ]
 }
