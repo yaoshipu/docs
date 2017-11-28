@@ -17,10 +17,22 @@ POST /api/templates/configs
 {
   "config_name": "config1",
   "service_name": "svc1",
-  "data": [
+  "config_data": [
     {
-      "key": "key1",
-      "value": "value1"
+      "key": "config_key",
+      "value": "config_value"
+    }
+  ],
+  "render_data": [
+    {
+      "name": "render_key1",
+      "is_credential": false,
+      "kv": [
+        {
+          "product": "KODO",
+          "value": "render_value"
+        }
+      ]
     }
   ]
 }
@@ -32,7 +44,8 @@ POST /api/templates/configs
 |-----|-----|
 | config_name | 配置名称，用户唯一 |
 | service_name | 配置属于的服务 |
-| data | 配置内容 |
+| config_data | 配置内容 |
+| render_data | 键值内容 |
 
 ##### 正常返回
 
