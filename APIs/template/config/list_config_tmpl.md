@@ -8,7 +8,7 @@
 #### 请求
 
 ```
-GET /api/templates/configs
+GET /api/templates/configs?service=svc1
 ```
 
 ##### 请求参数
@@ -24,32 +24,29 @@ GET /api/templates/configs
 ```json
 [
   {
-    "config": {
-      "config_name": "test2",
-      "service_name": "svc2"
-    },
-    "revision": 4
-  },
-  {
-    "config": {
-      "config_name": "test2",
-      "service_name": "svc1"
-    },
-    "revision": 3
-  },
-  {
-    "config": {
-      "config_name": "test1",
-      "service_name": "svc2"
-    },
-    "revision": 2
-  },
-  {
-    "config": {
-      "config_name": "test1",
-      "service_name": "svc1"
-    },
-    "revision": 5
+    "config_name": "test1",
+    "service_name": "svc1",
+    "revision": 1,
+    "create_time": 1511877960,
+    "create_by": "yaoshipu",
+    "config_data": [
+      {
+        "key": "config_key",
+        "value": "config_value"
+      }
+    ],
+    "render_data": [
+      {
+        "name": "render_key1",
+        "is_credential": false,
+        "kv": [
+          {
+            "product": "KODO",
+            "value": "render_value"
+          }
+        ]
+      }
+    ]
   }
 ]
 ```
