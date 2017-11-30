@@ -12,7 +12,12 @@ POST /api/templates/validate
 
 ##### 请求参数
 
-无
+```json
+{
+  "service_name": "svc1",
+  "yamls": ["parsed yaml 1", "parsed yaml 2"]
+}
+```
 
 ##### 参数说明
 
@@ -20,10 +25,5 @@ POST /api/templates/validate
 
 ##### 正常返回
 
-```json
-{
-  "yaml": "parsed yaml"
-}
-```
 
 ##### 错误返回
