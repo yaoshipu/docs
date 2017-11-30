@@ -6,7 +6,7 @@
 
 ## API接口文档
 
-### [1. 模板管理接口](APIs/template/README.md)
+## 1. 模板管理接口
 
 * 产品模板
   * [创建产品模板](APIs/template/product/create_product_tmpl.md)
@@ -20,7 +20,7 @@
   * [列出服务组模板](APIs/template/group/list_group_tmpl.md)
   * [查询服务组模板](APIs/template/group/get_group_tmpl.md)
   * [删除服务组模板](APIs/template/group/delete_group_tmpl.md)
-* 服务组模板
+* [服务模板](1-mo-ban-guan-li-jie-kou/fu-wu-zu-mo-ban.md)
   * [创建服务模板](APIs/template/service/create_service_tmpl.md)
   * [列出服务模板名称](APIs/template/service/list_service_tmpl.md)
   * [查询服务模板](APIs/template/service/get_service_tmpl.md)
@@ -32,7 +32,8 @@
   * [查询配置模板](APIs/template/config/get_config_tmpl.md)
   * [删除配置模板](APIs/template/config/delete_config_tmpl.md)
 
-### [2. 产品管理接口](APIs/product/README.md)
+## 2. 产品管理接口
+
 * 产品
   * [创建产品](APIs/product/create_product.md)
   * [更新产品](APIs/product/update_product.md)
@@ -58,49 +59,53 @@
   * [创建服务配置](APIs/product/configmap/create_configmap.md)
   * [更新服务配置](APIs/product/configmap/update_configmap.md)
   * [删除服务配置](APIs/product/configmap/delete_configmap.md)
-    
-### [3. Pipeline管理接口](APIs/pipeline/README.md)
-  * [创建Pipeline](APIs/pipeline/create_pipeline.md)
-  * [更新Pipeline](APIs/pipeline/update_pipeline.md)
-  * [列出Pipeline](APIs/pipeline/list_pipeline.md)
-  * [查询Pipeline](APIs/pipeline/get_pipeline.md)
-  * [删除Pipeline](APIs/pipeline/delete_pipeline.md)
-  * [检查服务容器](APIs/pipeline/get_service_container.md)
-  * [检查测试Job](APIs/pipeline/validate_test_job.md)
 
-### [4. 任务管理接口](APIs/task/README.md)
-  * [创建任务](APIs/task/create_task.md)
-  * [查询任务](APIs/task/get_task.md)
-  * [列出等待中任务](APIs/task/list_pending_task.md)
-  * [列出运行中任务](APIs/task/list_running_task.md)
-  * [取消等待中任务](APIs/task/cancel_pending_task.md)
-  * [取消运行中任务](APIs/task/cancel_running_task.md)
-  * [重启任务](APIs/task/restart_task.md)
-  * [列出任务](APIs/task/list_task.md)
-  * [列出任务状态](APIs/task/list_task_status.md)
-  * [列出Agent状态](APIs/task/list_agent_status.md)
-  * [测试任务日志](APIs/task/test_job_logs.md)
-  * [测试任务实时日志](APIs/task/test_job_logs_ws.md)
+## 3. Pipeline管理接口
 
-### [5. 服务配置接口](APIs/keystore/README.md)
-  * [创建服务配置项](APIs/keystore/create_keystore.md)
-  * [更新服务配置项](APIs/keystore/update_keystore.md)
-  * [列出服务配置项](APIs/keystore/list_keystore.md)
-  * [删除服务配置项](APIs/keystore/delete_keystore.md)
+* [创建Pipeline](APIs/pipeline/create_pipeline.md)
+* [更新Pipeline](APIs/pipeline/update_pipeline.md)
+* [列出Pipeline](APIs/pipeline/list_pipeline.md)
+* [查询Pipeline](APIs/pipeline/get_pipeline.md)
+* [删除Pipeline](APIs/pipeline/delete_pipeline.md)
+* [检查服务容器](APIs/pipeline/get_service_container.md)
+* [检查测试Job](APIs/pipeline/validate_test_job.md)
 
-### [6. 构建管理接口](APIs/reaper/README.md)
-  * [查询Git仓库配置](APIs/reaper/get_repo.md)
-  * [列出Git仓库配置](APIs/reaper/list_repo.md)
-  * [更新Git仓库配置](APIs/reaper/update_repo.md)
-  * [激活Git仓库配置](APIs/reaper/activate_repo.md)
-  * [删除Git仓库配置](APIs/reaper/delete_repo.md)
-  * [查询密钥配置](APIs/reaper/get_secret.md)
-  * [列出密钥配置](APIs/reaper/list_secret.md)
-  * [更新密钥配置](APIs/reaper/update_secret.md)
-  * [删除密钥配置](APIs/reaper/delete_secret.md)
-  * [批量创建密钥配置](APIs/reaper/create_repo_secret.md)
-  * [批量更新密钥配置](APIs/reaper/update_repo_secret.md)
-  * [批量删除密钥配置](APIs/reaper/delete_repo_secret.md)
-  * [批量添加密钥镜像配置](APIs/reaper/add_repo_secret_images.md)
-  * [批量删除密钥镜像配置](APIs/reaper/delete_repo_secret_images.md)
-  
+## 4. 任务管理接口
+
+* [创建任务](APIs/task/create_task.md)
+* [查询任务](APIs/task/get_task.md)
+* [列出等待中任务](APIs/task/list_pending_task.md)
+* [列出运行中任务](APIs/task/list_running_task.md)
+* [取消等待中任务](APIs/task/cancel_pending_task.md)
+* [取消运行中任务](APIs/task/cancel_running_task.md)
+* [重启任务](APIs/task/restart_task.md)
+* [列出任务](APIs/task/list_task.md)
+* [列出任务状态](APIs/task/list_task_status.md)
+* [列出Agent状态](APIs/task/list_agent_status.md)
+* [测试任务日志](APIs/task/test_job_logs.md)
+* [测试任务实时日志](APIs/task/test_job_logs_ws.md)
+
+## 5. 服务配置接口
+
+* [创建服务配置项](APIs/keystore/create_keystore.md)
+* [更新服务配置项](APIs/keystore/update_keystore.md)
+* [列出服务配置项](APIs/keystore/list_keystore.md)
+* [删除服务配置项](APIs/keystore/delete_keystore.md)
+
+## 6. 构建管理接口
+
+* [查询Git仓库配置](APIs/reaper/get_repo.md)
+* [列出Git仓库配置](APIs/reaper/list_repo.md)
+* [更新Git仓库配置](APIs/reaper/update_repo.md)
+* [激活Git仓库配置](APIs/reaper/activate_repo.md)
+* [删除Git仓库配置](APIs/reaper/delete_repo.md)
+* [查询密钥配置](APIs/reaper/get_secret.md)
+* [列出密钥配置](APIs/reaper/list_secret.md)
+* [更新密钥配置](APIs/reaper/update_secret.md)
+* [删除密钥配置](APIs/reaper/delete_secret.md)
+* [批量创建密钥配置](APIs/reaper/create_repo_secret.md)
+* [批量更新密钥配置](APIs/reaper/update_repo_secret.md)
+* [批量删除密钥配置](APIs/reaper/delete_repo_secret.md)
+* [批量添加密钥镜像配置](APIs/reaper/add_repo_secret_images.md)
+* [批量删除密钥镜像配置](APIs/reaper/delete_repo_secret_images.md)
+

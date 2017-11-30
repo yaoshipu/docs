@@ -15,11 +15,7 @@ POST /api/templates/services
 ```json
 {
   "service_name": "demo",
-  "yaml": "yaml file content",
-  "test": {
-    "command": "demo command",
-    "result_path": "/test/result/path"
-  }
+  "yaml": "yaml file content"
 }
 ```
 ##### 参数说明
@@ -35,11 +31,6 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: fe-financial
-  namespace: {{.Namespace}}
-  labels:
-    s-product: {{.Product}}
-    s-group: {{.Group}}
-    s-service: {{.Service}}
 spec:
   rules:
   - host: {{.Service}}-{{.Namespace}}.ke-cs.dev.qiniu.io
@@ -54,11 +45,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: portal-v4-fe-financial
-  namespace: {{.Namespace}}
-  labels:
-    s-product: {{.Product}}
-    s-group: {{.Group}}
-    s-service: {{.Service}}
 spec:
   ports:
     - protocol: TCP
@@ -74,24 +60,9 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: portal-v4-fe-financial
-  namespace: {{.Namespace}}
-  labels:
-    s-product: {{.Product}}
-    s-group: {{.Group}}
-    s-service: {{.Service}}
 spec:
   replicas: 1
-  selector:
-    matchLabels:
-      s-product: {{.Product}}
-      s-group: {{.Group}}
-      s-service: {{.Service}}
   template:
-    metadata:
-      labels:
-        s-product: {{.Product}}
-        s-group: {{.Group}}
-        s-service: {{.Service}}
     spec:
       imagePullSecrets:
         - name: qn-registry-secret
