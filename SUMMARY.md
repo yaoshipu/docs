@@ -35,14 +35,14 @@
 ## 2. 产品管理接口
 
 * 产品管理
-  * [创建产品](APIs/product/create_product.md)
-  * [更新产品](APIs/product/update_product.md)
-  * [列出产品](APIs/product/list_product.md)
-  * [删除产品](APIs/product/delete_product.md)
-  * [列出产品更新信息](APIs/product/list_product_revision.md)
+  * [创建产品](APIs/product/product/create_product.md)
+  * [更新产品](APIs/product/product/update_product.md)
+  * [列出产品](APIs/product/product/list_product.md)
+  * [删除产品](APIs/product/product/delete_product.md)
+  * [列出产品更新信息](APIs/product/product/list_product_revision.md)
 * 服务组管理
-  * [列出服务组](APIs/product/list_group.md)
-  * [查询服务组](APIs/product/get_group.md)
+  * [列出服务组](APIs/product/group/list_group.md)
+  * [查询服务组](APIs/product/group/get_group.md)
 * 服务管理
   * [查询服务](APIs/product/get_service.md)
   * [重启服务](APIs/product/restart_service.md)
