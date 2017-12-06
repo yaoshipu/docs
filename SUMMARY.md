@@ -53,7 +53,9 @@
   * [查询服务配置文件Legacy](APIs/product/get_configmap_legacy.md)
   * [列出镜像](APIs/product/list_image.md)
   * [容器实时日志](APIs/product/container_log_ws.md)
-
+* 配置管理
+  * [列出配置](APIs/product/group/list_group.md)
+  * [更新配置](APIs/product/group/get_group.md)
 ## 3. Pipeline管理接口
 
 * [创建Pipeline](APIs/pipeline/create_pipeline.md)
