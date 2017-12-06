@@ -20,7 +20,7 @@
   * [列出服务组模板](APIs/template/group/list_group_tmpl.md)
   * [查询服务组模板](APIs/template/group/get_group_tmpl.md)
   * [删除服务组模板](APIs/template/group/delete_group_tmpl.md)
-* [服务模板]
+* 服务模板
   * [创建服务模板](APIs/template/service/create_service_tmpl.md)
   * [列出服务模板名称](APIs/template/service/list_service_tmpl.md)
   * [查询服务模板](APIs/template/service/get_service_tmpl.md)
