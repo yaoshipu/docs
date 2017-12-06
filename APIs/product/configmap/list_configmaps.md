@@ -20,7 +20,7 @@ GET /api/products/:productName/groups/:groupName/services/:serviceName/configmap
 
 ##### 正常返回
 
-```
+```json
 [
   {
     "name": "hello",
