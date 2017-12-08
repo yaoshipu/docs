@@ -19,7 +19,8 @@ DELETE /api/templates/configs/:old/new/:new/services/:service
 
 | 参数 | 描述 |
 |-----|-----|
-| name | 配置名称 |
+| old | 旧配置名称 |
+| new | 新配置名称 |
 | service | 配置属于的服务 |
 
 ##### 正常返回
