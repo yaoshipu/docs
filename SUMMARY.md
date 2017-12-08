@@ -41,7 +41,7 @@
   * [列出产品](APIs/product/product/list_product.md)
   * [删除产品](APIs/product/product/delete_product.md)
   * [列出产品更新信息](APIs/product/product/list_product_revision.md)
-* [服务组管理]
+* 服务组管理
   * [列出服务组](APIs/product/group/list_group.md)
   * [查询服务组](APIs/product/group/get_group.md)
 * 服务管理
