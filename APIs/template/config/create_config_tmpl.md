@@ -49,7 +49,7 @@ POST /api/templates/configs
 | config_name | 配置名称，用户唯一 |
 | service_name | 配置属于的服务 |
 | config_data | 配置内容 |
-| render_data | 键值内容 |
+| render_data | 渲染键值内容 |
 
 ##### 正常返回
 
