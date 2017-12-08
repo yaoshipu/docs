@@ -34,7 +34,7 @@ DELETE /api/templates/configs/:old/new/:new/services/:service
 ```json
 {
   "code":6100,
-  "message":"Delete Template Error",
+  "message":"Update Template Error",
   "description":"error details"
 }
 ```
