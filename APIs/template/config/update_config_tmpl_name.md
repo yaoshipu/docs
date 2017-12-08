@@ -8,7 +8,7 @@
 #### 请求
 
 ```
-DELETE /api/templates/configs/:old/new/:new/services/:service
+PUT /api/templates/configs/:old/new/:new/services/:service
 ```
 
 ##### 请求参数
