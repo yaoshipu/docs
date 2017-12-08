@@ -31,6 +31,7 @@
   * [列出配置模板](APIs/template/config/list_config_tmpl.md)
   * [查询配置模板](APIs/template/config/get_config_tmpl.md)
   * [删除配置模板](APIs/template/config/delete_config_tmpl.md)
+  * [修改配置模板名称](APIs/template/config/update_config_tmpl_name.md)
 
 ## 2. 产品管理接口
 
