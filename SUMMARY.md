@@ -56,6 +56,7 @@
 * 配置管理
   * [列出配置](APIs/product/configmap/list_configmaps.md)
   * [更新配置](APIs/product/configmap/update_configmap.md)
+
 ## 3. Pipeline管理接口
 
 * [创建Pipeline](APIs/pipeline/create_pipeline.md)
