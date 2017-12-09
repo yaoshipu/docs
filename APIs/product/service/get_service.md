@@ -22,58 +22,58 @@ GET /api/products/:productName/groups/:groupName/services/:serviceName
 
 ```json
 {
-   "pods" : [
-      {
-         "name" : "memcached-memcached-2064967262-gnl53",
-         "status" : "Running",
-         "containers" : [
+  "service_name": "spock-frontend",
+  "ingress": [
+    {
+      "name": "spock-dev-spock-frontend",
+      "labels": {
+        "s-group": "spock-dev",
+        "s-product": "spock-dev",
+        "s-service": "spock-frontend"
+      },
+      "host_info": [
+        {
+          "host": "spock-dev.ke-cs.dev.qiniu.io",
+          "backend": [
             {
-               "message" : "",
-               "restart_count" : 0,
-               "name" : "memcached",
-               "status" : "running",
-               "image" : "index.qiniu.com/spocktest/memcached:1.5.2",
-               "reason" : ""
+              "service_name": "spock-dev-spock-frontend",
+              "service_port": "80"
             }
-         ],
-         "age" : "13s",
-         "ip" : "172.20.177.190",
-         "labels" : {
-            "s-group" : "memcached",
-            "s-service" : "memcached",
-            "s-product" : "memcached",
-            "pod-template-hash" : "2064967262"
-         }
-      }
-   ],
-   "service_name" : "memcached",
-   "ingress" : [
-      {
-         "age" : "14s",
-         "name" : "memcached-memcached",
-         "ips" : [
-            "10.200.20.42",
-            "10.200.20.43",
-            "10.200.20.44"
-         ],
-         "host_info" : [
-            {
-               "backend" : [
-                  {
-                     "service_port" : "11211",
-                     "service_name" : "memcached-memcached"
-                  }
-               ],
-               "host" : "memcached-memcached-yaoshipu.ke-cs.dev.qiniu.io"
-            }
-         ],
-         "labels" : {
-            "s-group" : "memcached",
-            "s-service" : "memcached",
-            "s-product" : "memcached"
-         }
-      }
-   ]
+          ]
+        }
+      ],
+      "ips": [
+        "10.200.20.42",
+        "10.200.20.43",
+        "10.200.20.44"
+      ],
+      "age": "1d"
+    }
+  ],
+  "pods": [
+    {
+      "name": "spock-dev-spock-frontend-1304887289-jjn89",
+      "status": "Running",
+      "age": "1d",
+      "ip": "172.20.177.173",
+      "labels": {
+        "pod-template-hash": "1304887289",
+        "s-group": "spock-dev",
+        "s-product": "spock-dev",
+        "s-service": "spock-frontend"
+      },
+      "containers": [
+        {
+          "name": "spock-frontend",
+          "image": "index.qiniu.com/spocktest/spock-frontend:20171207165723-726",
+          "restart_count": 0,
+          "status": "running",
+          "message": "",
+          "reason": ""
+        }
+      ]
+    }
+  ]
 }
 ```
 ##### 错误返回
