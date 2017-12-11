@@ -69,8 +69,8 @@
   * [检查服务容器](APIs/pipeline/get_service_container.md)
   * [检查测试Job](APIs/pipeline/validate_test_job.md)
 
-* 任务管理
 
+* 任务管理
   * [创建任务](APIs/pipeline/task/create_task.md)
   * [查询任务](APIs/pipeline/task/get_task.md)
   * [列出等待中任务](APIs/pipeline/task/list_pending_task.md)
