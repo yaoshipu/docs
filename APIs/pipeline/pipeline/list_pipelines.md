@@ -1,4 +1,4 @@
-## 列出Pipeline
+## 列出 Pipelines
 
 #### 注意事项
 
