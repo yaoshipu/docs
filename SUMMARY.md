@@ -59,13 +59,15 @@
 
 ## 3. Pipeline管理接口
 
-* [创建Pipeline](APIs/pipeline/create_pipeline.md)
-* [更新Pipeline](APIs/pipeline/update_pipeline.md)
-* [列出Pipeline](APIs/pipeline/list_pipeline.md)
-* [查询Pipeline](APIs/pipeline/get_pipeline.md)
-* [删除Pipeline](APIs/pipeline/delete_pipeline.md)
-* [检查服务容器](APIs/pipeline/get_service_container.md)
-* [检查测试Job](APIs/pipeline/validate_test_job.md)
+* Pipeline管理
+
+  * [创建Pipeline](APIs/pipeline/pipeline/create_pipeline.md)
+  * [更新Pipeline](APIs/pipeline/pipeline/update_pipeline.md)
+  * [列出Pipeline](APIs/pipeline/pipeline/list_pipelines.md)
+  * [查询Pipeline](APIs/pipeline/pipeline/get_pipeline.md)
+  * [删除Pipeline](APIs/pipeline/pipeline/delete_pipeline.md)
+  * [检查服务容器](APIs/pipeline/get_service_container.md)
+  * [检查测试Job](APIs/pipeline/validate_test_job.md)
 
 ## 4. 任务管理接口
 
