@@ -71,18 +71,18 @@
 
 * 任务管理
 
-  * [创建任务](APIs/task/create_task.md)
-  * [查询任务](APIs/task/get_task.md)
-  * [列出等待中任务](APIs/task/list_pending_task.md)
-  * [列出运行中任务](APIs/task/list_running_task.md)
-  * [取消等待中任务](APIs/task/cancel_pending_task.md)
-  * [取消运行中任务](APIs/task/cancel_running_task.md)
-  * [重启任务](APIs/task/restart_task.md)
-  * [列出任务](APIs/task/list_task.md)
-  * [列出任务状态](APIs/task/list_task_status.md)
-  * [列出Agent状态](APIs/task/list_agent_status.md)
-  * [测试任务日志](APIs/task/test_job_logs.md)
-  * [测试任务实时日志](APIs/task/test_job_logs_ws.md)
+  * [创建任务](APIs/pipeline/task/create_task.md)
+  * [查询任务](APIs/pipeline/task/get_task.md)
+  * [列出等待中任务](APIs/pipeline/task/list_pending_task.md)
+  * [列出运行中任务](APIs/pipeline/task/list_running_task.md)
+  * [取消等待中任务](APIs/pipeline/task/cancel_pending_task.md)
+  * [取消运行中任务](APIs/pipeline/task/cancel_running_task.md)
+  * [重启任务](APIs/pipeline/task/restart_task.md)
+  * [列出任务](APIs/pipeline/task/list_task.md)
+  * [列出任务状态](APIs/pipeline/task/list_task_status.md)
+  * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
+  * [测试任务日志](APIs/pipeline/task/test_job_logs.md)
+  * [测试任务实时日志](APIs/pipeline/task/test_job_logs_ws.md)
 
 ## 4. 构建管理接口
 
