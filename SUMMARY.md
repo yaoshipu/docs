@@ -69,29 +69,22 @@
   * [检查服务容器](APIs/pipeline/get_service_container.md)
   * [检查测试Job](APIs/pipeline/validate_test_job.md)
 
-## 4. 任务管理接口
+* 任务管理
 
-* [创建任务](APIs/task/create_task.md)
-* [查询任务](APIs/task/get_task.md)
-* [列出等待中任务](APIs/task/list_pending_task.md)
-* [列出运行中任务](APIs/task/list_running_task.md)
-* [取消等待中任务](APIs/task/cancel_pending_task.md)
-* [取消运行中任务](APIs/task/cancel_running_task.md)
-* [重启任务](APIs/task/restart_task.md)
-* [列出任务](APIs/task/list_task.md)
-* [列出任务状态](APIs/task/list_task_status.md)
-* [列出Agent状态](APIs/task/list_agent_status.md)
-* [测试任务日志](APIs/task/test_job_logs.md)
-* [测试任务实时日志](APIs/task/test_job_logs_ws.md)
+  * [创建任务](APIs/task/create_task.md)
+  * [查询任务](APIs/task/get_task.md)
+  * [列出等待中任务](APIs/task/list_pending_task.md)
+  * [列出运行中任务](APIs/task/list_running_task.md)
+  * [取消等待中任务](APIs/task/cancel_pending_task.md)
+  * [取消运行中任务](APIs/task/cancel_running_task.md)
+  * [重启任务](APIs/task/restart_task.md)
+  * [列出任务](APIs/task/list_task.md)
+  * [列出任务状态](APIs/task/list_task_status.md)
+  * [列出Agent状态](APIs/task/list_agent_status.md)
+  * [测试任务日志](APIs/task/test_job_logs.md)
+  * [测试任务实时日志](APIs/task/test_job_logs_ws.md)
 
-## 5. 服务配置接口
-
-* [创建服务配置项](APIs/keystore/create_keystore.md)
-* [更新服务配置项](APIs/keystore/update_keystore.md)
-* [列出服务配置项](APIs/keystore/list_keystore.md)
-* [删除服务配置项](APIs/keystore/delete_keystore.md)
-
-## 6. 构建管理接口
+## 4. 构建管理接口
 
 * [查询Git仓库配置](APIs/reaper/get_repo.md)
 * [列出Git仓库配置](APIs/reaper/list_repo.md)
