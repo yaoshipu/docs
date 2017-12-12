@@ -20,7 +20,7 @@ WS /api/logs/ws/pipelines/:pipelineName/tasks/:taskId/tests/:testName/tails/:lin
 |pipelineName|pipeline名称|
 |taskId|任务id|
 |testName|测试job名称|
-|lines|获取实时日志的行数|
+|lines|获取实时日志的开始行数|
 
 ##### 正常返回
 
