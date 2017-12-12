@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-WS /api/logs/ws/pipelines/:pipelineName/tasks/:taskId/tests/:testName
+WS /api/logs/ws/pipelines/:pipelineName/tasks/:taskId/tests/:testName/tails/:lines
 ```
 ##### 请求参数
 
@@ -20,6 +20,7 @@ WS /api/logs/ws/pipelines/:pipelineName/tasks/:taskId/tests/:testName
 |pipelineName|pipeline名称|
 |taskId|任务id|
 |testName|测试job名称|
+|lines|获取实时日志的行数|
 
 ##### 正常返回
 
