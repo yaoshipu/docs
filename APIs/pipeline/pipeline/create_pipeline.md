@@ -20,7 +20,7 @@ POST /api/v2/pipelines
   "schedule": [
     {
       "number": 1,
-      "frequency": "days",
+      "frequency": "day",
       "time": "10:15",
       "enabled": true
     },
