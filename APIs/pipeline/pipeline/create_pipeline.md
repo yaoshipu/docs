@@ -17,7 +17,20 @@ POST /api/v2/pipelines
   "name": "test-pipeline",
   "description": "demo desc",
   "enabled": true,
-  "schedule": "*/10 * * * * *",
+  "schedule": [
+    {
+      "number": 1,
+      "frequency": "days",
+      "time": "10:15",
+      "enabled": true
+    },
+    {
+      "number": 30,
+      "frequency": "minutes",
+      "time": "",
+      "enabled": true
+    }
+  ],
   "sub_tasks": [
     {
       "type": "build",
