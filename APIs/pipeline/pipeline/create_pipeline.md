@@ -17,7 +17,7 @@ POST /api/v2/pipelines
   "name": "test-pipeline",
   "description": "demo desc",
   "enabled": true,
-  "schedule": [
+  "schedules": [
     {
       "number": 1,
       "frequency": "day",
