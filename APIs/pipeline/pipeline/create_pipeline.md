@@ -90,7 +90,7 @@ POST /api/v2/pipelines
 |---|---|
 |timeout|任务超时时间, 单位秒|
 |test_job_name|单个用户唯一|
-|schedule.number|对于minutes来说最小值为30|
+|schedule.number|minutes区间最小值为30,其他>0|
 |schedule.frequency|任务周期，支持 minutes, hour, hours, day, days, Monday -> Sunday|
 |schedule.time|任务运行时间，可以和 day, days, Monday -> Sunday 配合使用|
 
