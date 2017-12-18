@@ -101,3 +101,19 @@
 * [批量添加密钥镜像配置](APIs/reaper/add_repo_secret_images.md)
 * [批量删除密钥镜像配置](APIs/reaper/delete_repo_secret_images.md)
 
+
+## 5. 通知管理接口
+
+* 通知管理
+
+  * [创建通知](APIs/notification/create_notify.md)
+  * [拉取通知](APIs/notification/pull_notify.md)
+  * [通知状态设置已读](APIs/notification/read_notify.md)
+  * [通知删除](APIs/notification/notify_deletebyid.md)
+  * [创建关注](APIs/notification/create_subscribe.md)
+  * [获得关注列表](APIs/notification/list_subscribe.md)
+  * [取消关注](APIs/notification/delete_subscribe.md)
+
+
+
+
