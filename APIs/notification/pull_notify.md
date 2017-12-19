@@ -10,7 +10,6 @@
 GET /api/notify/pull
 ```
 
-
 ##### 正常返回
 
 ```json
@@ -18,7 +17,7 @@ GET /api/notify/pull
     {
         "id": "5a372ca8acd01000019bedbc",
         "type": 1,
-        "sender": "*",
+        "receiver": "*",
         "content": {
             "title": "test",
             "priority":1,
@@ -36,7 +35,7 @@ GET /api/notify/pull
    {
         "id": "5a373c68acd01000019bedbd",
         "type": 2,    
-        "sender": "guoyu",
+        "receiver": "guoyu",
         "content": {
         "task_id": 1,
         "pipeline_name":"pipline",
@@ -55,5 +54,6 @@ GET /api/notify/pull
 |type|`1`对应系统通知，`2`对应pipline提醒|
 |sender|用户名（当用户名为*时为系统通知）|
 |content|消息内容|
+
 
 ##### 错误返回
