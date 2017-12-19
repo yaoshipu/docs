@@ -15,7 +15,7 @@ POST /api/notify
 ```json
 {
   "type": 1,
-  "sender": "*",
+  "receiver": "*",
   "content": {
     "title": "test",
     "priority":1,
@@ -25,19 +25,6 @@ POST /api/notify
   }
 }
 ```
-```json
-{
-  "type": 2,
-  "sender": "guoyu",
-  "content":{
-    "task_id": 1,
-    "pipeline_name":"pipline",
-    "status":"success"
- }
-}
-```
-
-
 
 ##### 参数说明
 
@@ -46,6 +33,7 @@ POST /api/notify
 |type|`1`对应系统通知，`2`对应pipline提醒|
 |sender|用户名（当用户名为*时为系统通知）|
 |content|消息内容|
+
 ##### 正常返回
 
 ```
