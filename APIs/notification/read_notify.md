@@ -13,10 +13,12 @@ PUT /api/notify/read
 ##### 请求参数
 
 ```json
-[
+{
+  "ids":[
     "5a372ca8acd01000019bedbc",
     "5a373c68acd01000019bedbd"
-]
+  ]
+}
 ```
 
 ##### 参数说明
