@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-POST /api/notify/unsubscribe/notifytype/:type
+DELETE /api/notify/unsubscribe/notifytype/:type
 ```
 
 ##### 参数说明
