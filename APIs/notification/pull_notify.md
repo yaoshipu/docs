@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/notify/pull
+GET /api/notify/pull/:receiver
 ```
 
 ##### 正常返回
