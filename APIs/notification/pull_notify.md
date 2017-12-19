@@ -18,7 +18,7 @@ GET /api/notify/pull
     {
         "id": "5a372ca8acd01000019bedbc",
         "type": 1,
-        "sender": "*",
+        "receiver": "*",
         "content": {
             "title": "test",
             "priority":1,
@@ -36,7 +36,7 @@ GET /api/notify/pull
    {
         "id": "5a373c68acd01000019bedbd",
         "type": 2,    
-        "sender": "guoyu",
+        "receiver": "guoyu",
         "content": {
         "task_id": 1,
         "pipeline_name":"pipline",
