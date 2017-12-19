@@ -52,7 +52,7 @@ GET /api/notify/pull
 |参数|描述|
 |---|---|
 |type|`1`对应系统通知，`2`对应pipline提醒|
-|sender|用户名（当用户名为*时为系统通知）|
+|receiver|用户名（当用户名为*时为系统通知）|
 |content|消息内容|
 
 
