@@ -7,7 +7,17 @@
 #### 请求
 
 ```
-POST /api/notify/subscribe/notifytype/:type
+POST /api/notify/subscribe
+```
+
+##### 请求参数
+
+```json
+{
+    "subscriber": "guoyu",
+    "type": 1,
+    "create_time": 0
+}
 ```
 
 ##### 参数说明
