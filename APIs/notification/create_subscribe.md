@@ -14,9 +14,7 @@ POST /api/notify/subscribe
 
 ```json
 {
-    "subscriber": "guoyu",
     "type": 1,
-    "create_time": 0
 }
 ```
 
