@@ -14,7 +14,7 @@ POST /api/notify/subscribe
 
 ```json
 {
-    "type": 1,
+    "notifytype": 1,
 }
 ```
 
