@@ -20,8 +20,8 @@ POST /api/notify
     "title": "test",
     "priority":1,
     "content":"dajiahao",
-    "start_time":"1513565352",
-    "end_time":"1513569384"
+    "start_time":1513565352,
+    "end_time":1513569384
   }
 }
 ```
