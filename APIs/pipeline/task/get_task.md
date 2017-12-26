@@ -64,7 +64,17 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
       "end_time": 1507111692,
       "type": "build"
     }
-  ]
+  ],
+  "dependency_builds": [
+        {
+          "repo_owner": "qbox",
+          "repo_name": "aslan-platform",
+          "branch": "master",
+          "pull_request_number": 11,
+          "commit_id": "e96fb0b53ff1895354c1b1276e4536a6a7b1bd74"
+        }
+      ]
+
 }
 ```
 
