@@ -22,7 +22,7 @@ POST /api/notify/subscribe
 
 |参数|描述|
 |---|---|
-|type|`1`对应系统通知，`2`对应pipline提醒|
+|type|`1`对应系统通知，`2`对应pipline提醒，`3`对应message|
 ##### 正常返回
 
 ```

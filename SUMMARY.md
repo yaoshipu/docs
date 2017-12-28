@@ -109,6 +109,7 @@
   * [创建通知](APIs/notification/create_notify.md)
   * [拉取消息](APIs/notification/pull_notify.md)
   * [拉取系统通知](APIs/notification/pull_announcement.md)
+  * [拉取全部系统通知](APIs/notification/pull_all_announcement.md)
   * [通知状态设置已读](APIs/notification/read_notify.md)
   * [通知删除](APIs/notification/notify_deletebyid.md)
   * [创建关注](APIs/notification/create_subscribe.md)

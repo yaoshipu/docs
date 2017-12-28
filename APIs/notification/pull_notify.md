@@ -21,11 +21,23 @@ GET /api/notify/pull
         "content": {
         "task_id": 1,
         "pipeline_name":"pipline",
-        "status":"success"
+        "status":"passed"
+    },
+    "create_time": 1513569384,
+    "is_read": false
+},
+{
+        "id": "5a373c68acd01000019bedbd",
+        "type": 3,    
+        "receiver": "guoyu",
+        "content": {
+        "title": "test",
+        "content":"test_message"
     },
     "create_time": 1513569384,
     "is_read": false
 }
+
 ]
 ```
 
