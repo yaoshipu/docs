@@ -48,6 +48,41 @@ POST /api/v2/pipelines
       ]
     },
     {
+      "type": "build.v2",
+      "enabled": true,
+      "task_ctx": {
+        "scripts": [
+          "set -e",
+          "printenv",
+          "export GOPATH=$WORKSPACE",
+          "cd $WORKSPACE/src/github.com/qbox/aslan-platform",
+          "#make deps-cache clean-spock build-spock-net",
+          "#make depinstall-spock-portal build-spock-portal",
+          "cd spock/cmd/spock",
+          "#docker build --rm -t $IMAGE -f Dockerfile .",
+          "#docker push $IMAGE",
+          "mkdir -p $DIST_DIR/_package && cp spock $DIST_DIR/_package"
+        ],
+        "envs": [
+          "TEST_ENV=ABC"
+        ],
+        "package_file": "spock-backend-test-1230-6.tar.gz",
+        "image": "index.qiniu.com/spocktest/buildv2:test",
+        "builds": [
+          {
+            "repo_owner": "qbox",
+            "repo_name": "aslan-platform",
+            "branch": "develop",
+            "pr": 0,
+            "commit_id": "",
+            "commit_message": "",
+            "checkout_path": "/src/github.com/qbox",
+            "remote_name": "origin",
+            "submodules": false
+          }
+        ]
+    },    
+    {
       "type": "deploy",
       "namespace": "yaoshipu",
       "product_name": "spock-kube",
