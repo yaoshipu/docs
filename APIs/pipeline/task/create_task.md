@@ -51,7 +51,7 @@ POST /api/tasks
     {
       "type": "build.v2",
       "enabled": true,
-      "task_ctx": {
+      "job_ctx": {
         "scripts": [
           "set -e",
           "printenv",
