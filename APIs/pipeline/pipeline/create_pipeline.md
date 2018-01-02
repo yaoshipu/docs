@@ -67,6 +67,7 @@ POST /api/v2/pipelines
           "TEST_ENV=ABC"
         ],
         "package_file": "spock-backend-test-1230-6.tar.gz",
+        "package_dir": "/workspace/pipeline_name/packege_path",
         "image": "index.qiniu.com/spocktest/buildv2:test",
         "builds": [
           {
