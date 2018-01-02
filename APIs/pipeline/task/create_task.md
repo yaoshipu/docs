@@ -70,6 +70,8 @@ POST /api/tasks
         ],
         "package_file": "spock-backend-test-1230-6.tar.gz",
         "package_dir": "/workspace/pipeline_name/packege_path",
+        "TestThreshold": 0,
+        "TestResultPath", "",
         "image": "index.qiniu.com/spocktest/buildv2:test",
         "builds": [
           {
@@ -84,6 +86,17 @@ POST /api/tasks
             "submodules": false
           }
         ]
+      },
+      "install_ctx": {
+        "go_version": "1.8.3", 
+        "node_version": "6.11.2",
+        "yarn": true,
+        "glide": true,
+        "bower": false,
+        "ginkgo": false,
+        "node_gyp": false,
+        "phantomjs": false
+      }
     },    
     {
       "type": "deploy",
@@ -134,6 +147,7 @@ POST /api/tasks
 |branch|代码编译分支 如果提供了pull_request_number, branch会被忽略|
 |pull_request_number|pull request number|
 |commit_id|commitID 如果是提交PR, 则需要提供|
+|install_ctx| 全部可选 |
 
 ##### 正常返回
 
