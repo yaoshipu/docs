@@ -68,7 +68,7 @@ POST /api/v2/pipelines
         ],
         "package_file": "spock-backend-test-1230-6.tar.gz",
         "package_dir": "/workspace/pipeline_name/packege_path",
-        "TestThreshold": 0,
+        "TestThreshold": 100,
         "TestResultPath", "",
         "image": "index.qiniu.com/spocktest/buildv2:test",
         "builds": [
