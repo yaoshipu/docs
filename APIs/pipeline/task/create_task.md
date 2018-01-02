@@ -38,6 +38,7 @@ POST /api/tasks
       "bin": "spock-backend",
       "image": "index.qiniu.com/spocktest/spock-backend:1.0.3",
       "package_file": "build service kodo package file",
+      "package_dir": "build service kodo package file",
       "dependency_builds": [
         {
           "repo_owner": "qbox",
@@ -68,6 +69,7 @@ POST /api/tasks
           "TEST_ENV=ABC"
         ],
         "package_file": "spock-backend-test-1230-6.tar.gz",
+        "package_dir": "/workspace/pipeline_name/packege_path",
         "image": "index.qiniu.com/spocktest/buildv2:test",
         "builds": [
           {
