@@ -85,6 +85,17 @@ POST /api/v2/pipelines
             "submodules": false
           }
         ]
+      },
+      "install_ctx": {
+        "go_version": "1.8.3", 
+        "node_version": "6.11.2",
+        "yarn": true,
+        "glide": true,
+        "bower": false,
+        "ginkgo": false,
+        "node_gyp": false,
+        "phantomjs": false
+      }
     },    
     {
       "type": "deploy",
@@ -132,6 +143,7 @@ POST /api/v2/pipelines
 |schedule.number|minutes区间最小值为30,其他>0|
 |schedule.frequency|任务周期，支持 minutes, hour, hours, day, days, monday -> sunday|
 |schedule.time|任务运行时间，可以和 day, days, monday -> sunday 配合使用|
+|install_ctx| 全部可选 |
 
 ##### 正常返回
 

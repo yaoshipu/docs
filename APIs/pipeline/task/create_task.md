@@ -72,6 +72,7 @@ POST /api/tasks
         "package_dir": "/workspace/pipeline_name/packege_path",
         "TestThreshold": 0,
         "TestResultPath", "",
+        "TestJobName", "",
         "image": "index.qiniu.com/spocktest/buildv2:test",
         "builds": [
           {
