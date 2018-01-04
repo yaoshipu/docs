@@ -114,6 +114,7 @@
   * [更新通知](APIs/notification/update_notify.md)
   * [通知删除](APIs/notification/notify_deletebyid.md)
   * [创建关注](APIs/notification/create_subscribe.md)
+  * [更新关注](APIs/notification/update_subscribe.md)
   * [获得关注列表](APIs/notification/list_subscribe.md)
   * [取消关注](APIs/notification/delete_subscribe.md)
 
