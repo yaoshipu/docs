@@ -120,7 +120,7 @@
   
 ## 6. 测试管理接口
 
-* 通知管理
+* 集成测试管理
 
   * [查找测试报告](APIs/itreport/find_itreport.md)
   * [下载测试报告](APIs/itreport/download_itreport.md)
