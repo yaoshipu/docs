@@ -117,6 +117,13 @@
   * [更新关注](APIs/notification/update_subscribe.md)
   * [获得关注列表](APIs/notification/list_subscribe.md)
   * [取消关注](APIs/notification/delete_subscribe.md)
+  
+## 6. 测试管理接口
+
+* 通知管理
+
+  * [查找测试报告](APIs/itreport/find_itreport.md)
+  * [下载测试报告](APIs/itreport/download_itreport.md)
 
 
 
