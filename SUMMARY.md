@@ -124,6 +124,17 @@
 
   * [查找测试报告](APIs/itreport/find_itreport.md)
   * [下载测试报告](APIs/itreport/download_itreport.md)
+  
+## 7. 用户管理接口
+
+* 用户管理
+
+  * [获取用户kube配置](APIs/user/get_user_kubeconfig.md)
+
+
+
+
+
 
 
 
