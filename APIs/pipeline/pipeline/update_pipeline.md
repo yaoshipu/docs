@@ -40,6 +40,66 @@ PUT /api/v2/pipelines/:name
       "timeout": 7200
     },
     {
+      "type": "build.v2",
+      "enabled": true,
+      "job_ctx": {
+        "scripts": [
+          "set -e",
+          "printenv",
+          "go version",
+          "export PKG_DIR=$WORKSPACE/src/github.com/qbox/aslan-platform/_package",
+          "echo $PKG_DIR",
+          "mkdir -p $PKG_DIR",
+          "export GOPATH=$WORKSPACE",
+          "cd $WORKSPACE/src/github.com/qbox/aslan-platform",
+          "#make deps-cache clean-spock build-spock-net",
+          "make depinstall-spock-portal build-spock-portal",
+          "cd spock/cmd/spock",
+          "docker build --rm -t $IMAGE -f Dockerfile .",
+          "docker push $IMAGE",
+          "cp ./spock $PKG_DIR",
+          "tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
+          "sleep 99999"
+        ],
+        "envs": [
+          "TEST_ENV=ABC"
+        ],
+        "package_file": "spock-backend-test-0105-2.tar.gz",
+        "image": "index.qiniu.com/spocktest/spock-backend-test:01052",
+        "builds": [
+          {
+            "repo_owner": "qbox",
+            "repo_name": "aslan-platform",
+            "branch": "develop",
+            "pr": 0,
+            "commit_id": "",
+            "commit_message": "",
+            "checkout_path": "/src/github.com/qbox",
+            "remote_name": "origin",
+            "submodules": false
+          }
+        ]
+      },
+      "install_items": [
+        {
+          "name": "go",
+          "version": "1.8.3"
+        },
+        {
+          "name": "glide",
+          "version": ""
+        },
+        {
+          "name": "node",
+          "version": "6.11.2"
+        },
+        {
+          "name": "yarn",
+          "version": ""
+        }
+      ]
+    },    
+    {
       "type": "deploy",
       "product_name": "spock-kube",
       "group_name": "spock-kube",
