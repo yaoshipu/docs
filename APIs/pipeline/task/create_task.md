@@ -53,23 +53,21 @@ POST /api/tasks
       "type": "build.v2",
       "enabled": true,
       "job_ctx": {
-        "scripts": [
-          "set -e",
-          "printenv",
-          "go version",
-          "export PKG_DIR=$WORKSPACE/src/github.com/qbox/aslan-platform/_package",
-          "echo $PKG_DIR",
-          "mkdir -p $PKG_DIR",
-          "export GOPATH=$WORKSPACE",
-          "cd $WORKSPACE/src/github.com/qbox/aslan-platform",
-          "#make deps-cache clean-spock build-spock-net",
-          "make depinstall-spock-portal build-spock-portal",
-          "cd spock/cmd/spock",
-          "docker build --rm -t $IMAGE -f Dockerfile .",
-          "docker push $IMAGE",
-          "cp ./spock $PKG_DIR",
-          "tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR"
-        ],
+        "scripts": "set -e
+          printenv
+          go version
+          export PKG_DIR=$WORKSPACE/src/github.com/qbox/aslan-platform/_package
+          echo $PKG_DIR
+          mkdir -p $PKG_DIR
+          export GOPATH=$WORKSPACE
+          cd $WORKSPACE/src/github.com/qbox/aslan-platform
+          make deps-cache clean-spock build-spock-net
+          make depinstall-spock-portal build-spock-portal
+          cd spock/cmd/spock
+          docker build --rm -t $IMAGE -f Dockerfile .
+          docker push $IMAGE
+          cp ./spock $PKG_DIR
+          tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
         "envs": [
           "TEST_ENV=ABC"
         ],
