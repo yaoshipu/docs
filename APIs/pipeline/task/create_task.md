@@ -56,24 +56,26 @@ POST /api/tasks
         "scripts": [
           "set -e",
           "printenv",
+          "go version",
+          "export PKG_DIR=$WORKSPACE/src/github.com/qbox/aslan-platform/_package",
+          "echo $PKG_DIR",
+          "mkdir -p $PKG_DIR",
           "export GOPATH=$WORKSPACE",
           "cd $WORKSPACE/src/github.com/qbox/aslan-platform",
-          "make deps-cache clean-spock build-spock-net",
+          "#make deps-cache clean-spock build-spock-net",
           "make depinstall-spock-portal build-spock-portal",
           "cd spock/cmd/spock",
           "docker build --rm -t $IMAGE -f Dockerfile .",
           "docker push $IMAGE",
-          "mkdir -p $DIST_DIR/_package && cp spock $DIST_DIR/_package"
+          "cp ./spock $PKG_DIR",
+          "tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
+          "sleep 99999"
         ],
         "envs": [
           "TEST_ENV=ABC"
         ],
-        "package_file": "spock-backend-test-1230-6.tar.gz",
-        "package_dir": "/workspace/pipeline_name/packege_path",
-        "TestThreshold": 0,
-        "TestResultPath", "",
-        "TestJobName", "",
-        "image": "index.qiniu.com/spocktest/buildv2:test",
+        "package_file": "spock-backend-test-0105-2.tar.gz",
+        "image": "index.qiniu.com/spocktest/spock-backend-test:01052",
         "builds": [
           {
             "repo_owner": "qbox",
@@ -88,17 +90,25 @@ POST /api/tasks
           }
         ]
       },
-      "install_ctx": {
-        "go_version": "1.8.3", 
-        "node_version": "6.11.2",
-        "yarn": true,
-        "glide": true,
-        "bower": false,
-        "ginkgo": false,
-        "node_gyp": false,
-        "phantomjs": false
-      }
-    },    
+      "install_items": [
+        {
+          "name": "go",
+          "version": "1.8.3"
+        },
+        {
+          "name": "glide",
+          "version": ""
+        },
+        {
+          "name": "node",
+          "version": "6.11.2"
+        },
+        {
+          "name": "yarn",
+          "version": ""
+        }
+      ]
+    }, 
     {
       "type": "deploy",
       "namespace": "yaoshipu",
