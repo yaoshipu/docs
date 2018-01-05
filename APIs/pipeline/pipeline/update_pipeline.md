@@ -43,6 +43,7 @@ PUT /api/v2/pipelines/:name
       "type": "build.v2",
       "enabled": true,
       "job_ctx": {
+          "clean_workspace": false,
           "scripts": "set -e
             printenv
             go version
