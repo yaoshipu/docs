@@ -68,8 +68,7 @@ POST /api/tasks
           "docker build --rm -t $IMAGE -f Dockerfile .",
           "docker push $IMAGE",
           "cp ./spock $PKG_DIR",
-          "tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
-          "sleep 99999"
+          "tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR"
         ],
         "envs": [
           "TEST_ENV=ABC"
