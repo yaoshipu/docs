@@ -50,6 +50,7 @@ POST /api/v2/pipelines
     {
       "type": "build.v2",
       "enabled": true,
+      "build_os": "trusty",
       "job_ctx": {
         "clean_workspace": false,
         "scripts": "set -e
@@ -152,6 +153,7 @@ POST /api/v2/pipelines
 |schedule.frequency|任务周期，支持 minutes, hour, hours, day, days, monday -> sunday|
 |schedule.time|任务运行时间，可以和 day, days, monday -> sunday 配合使用|
 |install_ctx| 全部可选 |
+|build_os| precise, trusty, xential |
 
 ##### 正常返回
 
