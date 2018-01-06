@@ -158,6 +158,7 @@ POST /api/tasks
 |pull_request_number|pull request number|
 |commit_id|commitID 如果是提交PR, 则需要提供|
 |install_ctx| 全部可选 |
+|build_os| precise, trusty, xential |
 
 ##### 正常返回
 
