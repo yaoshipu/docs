@@ -42,6 +42,7 @@ PUT /api/v2/pipelines/:name
     {
       "type": "build.v2",
       "enabled": true,
+      "build_os": "trusty",
       "job_ctx": {
           "clean_workspace": false,
           "scripts": "set -e
