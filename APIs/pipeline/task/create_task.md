@@ -52,6 +52,7 @@ POST /api/tasks
     {
       "type": "build.v2",
       "enabled": true,
+      "build_os": "trusty",
       "job_ctx": {
         "clean_workspace": false,
         "scripts": "set -e
