@@ -17,10 +17,12 @@ PUT /api/v2/pipelines/:name
 {
   "description": "demo desc",
   "enabled": true,
-  "product_name": "spock-kube",
-  "group_name": "spock-kube",
-  "service_name": "spock-backend",
-  "container_name": "spock-backend",
+  "info": {
+    "product_name": "spock-kube",
+    "group_name": "spock-kube",
+    "service_name": "spock-backend",
+    "container_name": "spock-backend"
+  },
   "schedules": [
     {
     "number": 1,
@@ -57,7 +59,7 @@ PUT /api/v2/pipelines/:name
       "timeout": 7200
     },
     {
-      "type": "build.v2",
+      "type": "buildv2",
       "enabled": true,
       "build_os": "trusty",
       "job_ctx": {
