@@ -27,10 +27,12 @@ POST /api/tasks
 {
   "type": "pipeline",
   "pipeline_name": "demo-pipeline",
-  "product_name": "spock-kube",
-  "group_name": "spock-kube",
-  "service_name": "spock-backend",
-  "container_name": "spock-backend",
+  "info": {
+    "product_name": "spock-kube",
+    "group_name": "spock-kube",
+    "service_name": "spock-backend",
+    "container_name": "spock-backend"
+  },
   "sub_tasks": [
     {
       "type": "build",
