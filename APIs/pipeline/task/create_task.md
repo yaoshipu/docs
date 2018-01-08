@@ -27,6 +27,10 @@ POST /api/tasks
 {
   "type": "pipeline",
   "pipeline_name": "demo-pipeline",
+  "product_name": "spock-kube",
+  "group_name": "spock-kube",
+  "service_name": "spock-backend",
+  "container_name": "spock-backend",
   "sub_tasks": [
     {
       "type": "build",
@@ -50,7 +54,7 @@ POST /api/tasks
       "timeout": 7200
     },
     {
-      "type": "build.v2",
+      "type": "buildv2",
       "enabled": true,
       "build_os": "trusty",
       "job_ctx": {
