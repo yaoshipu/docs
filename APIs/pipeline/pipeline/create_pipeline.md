@@ -17,6 +17,10 @@ POST /api/v2/pipelines
   "name": "test-pipeline",
   "description": "demo desc",
   "enabled": true,
+  "product_name": "spock-kube",
+  "group_name": "spock-kube",
+  "service_name": "spock-backend",
+  "container_name": "spock-backend",
   "schedules": [
     {
       "number": 1,
@@ -48,7 +52,7 @@ POST /api/v2/pipelines
       ]
     },
     {
-      "type": "build.v2",
+      "type": "buildv2",
       "enabled": true,
       "build_os": "trusty",
       "job_ctx": {
