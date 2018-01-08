@@ -17,7 +17,24 @@ PUT /api/v2/pipelines/:name
 {
   "description": "demo desc",
   "enabled": true,
-  "schedule": "*/10 * * * * *",
+  "product_name": "spock-kube",
+  "group_name": "spock-kube",
+  "service_name": "spock-backend",
+  "container_name": "spock-backend",
+  "schedules": [
+    {
+    "number": 1,
+    "frequency": "day",
+    "time": "10:15",
+    "enabled": true
+    },
+    {
+    "number": 30,
+    "frequency": "minutes",
+    "time": "",
+    "enabled": true
+    }
+    ],  
   "sub_tasks": [
     {
       "type": "build",
