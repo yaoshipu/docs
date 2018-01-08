@@ -69,7 +69,6 @@
   * [检查服务容器](APIs/pipeline/get_service_container.md)
   * [检查测试Job](APIs/pipeline/validate_test_job.md)
 
-
 * 任务管理
   * [创建任务](APIs/pipeline/task/create_task.md)
   * [查询任务](APIs/pipeline/task/get_task.md)
@@ -101,7 +100,6 @@
 * [批量添加密钥镜像配置](APIs/reaper/add_repo_secret_images.md)
 * [批量删除密钥镜像配置](APIs/reaper/delete_repo_secret_images.md)
 
-
 ## 5. 通知管理接口
 
 * 通知管理
@@ -117,25 +115,40 @@
   * [更新关注](APIs/notification/update_subscribe.md)
   * [获得关注列表](APIs/notification/list_subscribe.md)
   * [取消关注](APIs/notification/delete_subscribe.md)
-  
+
 ## 6. 测试管理接口
 
 * 集成测试管理
 
   * [查找测试报告](APIs/itreport/find_itreport.md)
   * [下载测试报告](APIs/itreport/download_itreport.md)
-  
+
 ## 7. 用户管理接口
 
 * 用户管理
 
   * [获取用户kube配置](APIs/user/get_user_kubeconfig.md)
+  
+## 8. 安装管理脚本接口
+
+* 安装管理脚本
+
+  * [创建脚本](APIs/installscript/create_install.md)
+  * [列出脚本](APIs/installscript/list_install.md)
+  * [获取脚本](APIs/installscript/get_install.md)
+  * [更新脚本](APIs/installscript/update_install.md)
+  * [删除脚本](APIs/installscript/delete_install.md)
 
 
 
 
 
 
+
+
+
+
+  
 
 
 
