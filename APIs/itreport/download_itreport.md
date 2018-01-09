@@ -14,7 +14,7 @@ GET /api/itreport/jobs/:testJobName
 
 |参数|描述|
 |---|---|
-|testJobName|testJobName|
+|testJobName|":pipelineName-:taskid-:testName"|
 
 ##### 正常返回
 
