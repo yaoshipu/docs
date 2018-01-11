@@ -82,6 +82,10 @@
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
   * [测试任务日志](APIs/pipeline/task/test_job_logs.md)
   * [测试任务实时日志](APIs/pipeline/task/test_job_logs_ws.md)
+  * [构建任务日志](APIs/pipeline/task/build_job_logs.md)
+  * [构建任务实时日志](APIs/pipeline/task/build_job_logs_ws.md)
+
+
 
 ## 4. 构建管理接口
 
