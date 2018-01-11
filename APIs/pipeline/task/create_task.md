@@ -77,7 +77,7 @@ POST /api/tasks
           cp ./spock $PKG_DIR
           tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
         "envs": [
-          "TEST_ENV=ABC"
+          {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
         ],
         "package_file": "spock-backend-test-0105-2.tar.gz",
         "image": "index.qiniu.com/spocktest/spock-backend-test:01052",
@@ -102,7 +102,7 @@ POST /api/tasks
         },
         {
           "name": "glide",
-          "version": ""
+          "version": "latest"
         },
         {
           "name": "node",
@@ -110,7 +110,7 @@ POST /api/tasks
         },
         {
           "name": "yarn",
-          "version": ""
+          "version": "latest"
         }
       ]
     }, 
