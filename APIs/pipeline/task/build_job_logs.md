@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /pipelines/:pipelineName/tasks/:taskId
+GET /api/logs/pipelines/:pipelineName/tasks/:taskId
 ```
 
 ##### 请求参数

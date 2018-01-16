@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-WS /ws/pipelines/:pipelineName/tasks/:taskId/tails/:lines
+WS /api/logs/ws/pipelines/:pipelineName/tasks/:taskId/tails/:lines
 ```
 ##### 请求参数
 
