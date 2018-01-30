@@ -137,6 +137,62 @@ POST /api/tasks
       "timeout": 3600
     },
     {
+    "type": "testingv2",
+    "enabled": true,
+    "test_name": "test",
+    "build_os": "trusty",
+    "job_ctx": {
+        "test_threshold":100,
+      	"test_result_path":"/dora-cloud/test/reporters",
+        "clean_workspace": false,
+        "scripts": "#!/bin/bash
+                  set -e
+                  export PATH=$PATH:/go/bin
+                  cd /workspace/dora-cloud/test
+                  source env.sh
+                  ./startup.sh
+                  export TEST_ENV=product
+                  export TEST_ZONE=z0
+                  export COMPARE_LEVEL=0
+                  echo $USER_NAME
+                  make dependency
+                  cd /workspace/dora-cloud/test
+                  #make testsmoke
+                  for p in pfop;
+                  do 
+                    cd  /workspace/dora-cloud/test/src/qtest.com/fop/$p
+                    ginkgo -p -keepGoing=true
+                  cd -
+                  done
+                  echo $?",
+    "envs": [
+        {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
+            ],
+    "builds": [
+        {
+            "repo_owner": "qbox",
+            "repo_name": "dora-cloud",
+            "branch": "develop",
+            "pr": 0,
+            "commit_id": "",
+            "commit_message": "",
+            "remote_name": "origin",
+            "submodules": false
+        }
+    ]
+    },
+    "install_items": [
+        {
+          "name": "go",
+          "version": "1.8.3"
+        },
+        {
+          "name": "ginkgo",
+          "version": "latest"
+        }
+      ]
+    },
+    {
       "type": "distribute",
       "dist_host": "jumpbox",
       "package_file": "same as previous build task value",
