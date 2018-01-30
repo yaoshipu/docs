@@ -163,9 +163,7 @@ POST /api/v2/pipelines
                   cd -
                   done
                   echo $?",
-    "envs": [
-        {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
-            ],
+    "envs": [],
     "builds": [
         {
             "repo_owner": "qbox",
