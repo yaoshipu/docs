@@ -67,6 +67,13 @@
   * [删除Pipeline](APIs/pipeline/pipeline/delete_pipeline.md)
   * [检查服务容器](APIs/pipeline/get_service_container.md)
   * [检查测试Job](APIs/pipeline/validate_test_job.md)
+  * [创建关注Pipeline](APIs/pipeline/pipeline/create_favorite_pipeline.md)
+  * [列出关注Pipeline](APIs/pipeline/pipeline/list_favorite_pipeline.md)
+  * [删除关注Pipeline](APIs/pipeline/pipeline/delete_favorite_pipeline.md)
+
+  
+
+
 * 任务管理
   * [创建任务](APIs/pipeline/task/create_task.md)
   * [查询任务](APIs/pipeline/task/get_task.md)
