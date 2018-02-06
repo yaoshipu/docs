@@ -52,7 +52,6 @@
   * [删除服务Pod](APIs/product/service/delete_pod.md)
   * [列出服务Pods](APIs/product/service/list_service_pods.md)
   * [列出镜像](APIs/product/service/list_image.md)
-  * [容器实时日志](APIs/product/service/container_log_ws.md)
 * 配置管理
   * [列出配置](APIs/product/configmap/list_configmaps.md)
   * [更新配置](APIs/product/configmap/update_configmap.md)
@@ -81,12 +80,19 @@
   * [列出任务](APIs/pipeline/task/list_task.md)
   * [列出任务状态](APIs/pipeline/task/list_task_status.md)
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
+
+## 4. 日志管理接口
+
+* 任务日志
   * [测试任务日志](APIs/pipeline/task/test_job_logs.md)
   * [测试任务实时日志](APIs/pipeline/task/test_job_logs_ws.md)
   * [构建任务日志](APIs/pipeline/task/build_job_logs.md)
   * [构建任务实时日志](APIs/pipeline/task/build_job_logs_ws.md)
+* 服务日志
+  * [服务历史日志](APIs/product/service/container_log.md)
+  * [服务实时日志](APIs/product/service/container_log_ws.md)
 
-## 4. 通知管理接口
+## 5. 通知管理接口
 
 * 通知管理
   * [创建通知](APIs/notification/create_notify.md)
@@ -101,18 +107,18 @@
   * [获得关注列表](APIs/notification/list_subscribe.md)
   * [取消关注](APIs/notification/delete_subscribe.md)
 
-## 5. 测试管理接口
+## 6. 测试管理接口
 
 * 集成测试管理
   * [查找测试报告](APIs/itreport/find_itreport.md)
   * [下载测试报告](APIs/itreport/download_itreport.md)
 
-## 6. 用户管理接口
+## 7. 用户管理接口
 
 * 用户管理
   * [获取用户kube配置](APIs/user/get_user_kubeconfig.md)
 
-## 7. 安装管理脚本接口
+## 8. 安装管理脚本接口
 
 * 安装管理脚本
   * [创建脚本](APIs/installscript/create_install.md)
