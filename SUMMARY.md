@@ -84,13 +84,13 @@
 ## 4. 日志管理接口
 
 * 任务日志
-  * [测试任务日志](APIs/pipeline/task/test_job_logs.md)
-  * [测试任务实时日志](APIs/pipeline/task/test_job_logs_ws.md)
-  * [构建任务日志](APIs/pipeline/task/build_job_logs.md)
-  * [构建任务实时日志](APIs/pipeline/task/build_job_logs_ws.md)
+  * [测试任务日志](APIs/log/test_job_logs.md)
+  * [测试任务实时日志](APIs/log/test_job_logs_ws.md)
+  * [构建任务日志](APIs/log/build_job_logs.md)
+  * [构建任务实时日志](APIs/log/build_job_logs_ws.md)
 * 服务日志
-  * [服务历史日志](APIs/product/service/container_log.md)
-  * [服务实时日志](APIs/product/service/container_log_ws.md)
+  * [服务历史日志](APIs/log/container_log.md)
+  * [服务实时日志](APIs/log/container_log_ws.md)
 
 ## 5. 通知管理接口
 
