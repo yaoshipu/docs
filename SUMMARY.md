@@ -70,10 +70,6 @@
   * [创建关注Pipeline](APIs/pipeline/pipeline/create_favorite_pipeline.md)
   * [列出关注Pipeline](APIs/pipeline/pipeline/list_favorite_pipeline.md)
   * [删除关注Pipeline](APIs/pipeline/pipeline/delete_favorite_pipeline.md)
-
-  
-
-
 * 任务管理
   * [创建任务](APIs/pipeline/task/create_task.md)
   * [查询任务](APIs/pipeline/task/get_task.md)
