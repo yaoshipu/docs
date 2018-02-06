@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-WS /api/logs/ws/pods/:podName/containers/:containerName
+/api/logs/ws/pods/:podName/containers/:containerName
 ```
 ##### 请求参数
 
