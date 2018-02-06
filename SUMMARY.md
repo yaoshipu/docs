@@ -59,7 +59,7 @@
 
 ## 3. Pipeline管理接口
 
-* [Pipeline管理](3-pipelineguan-li-jie-kou/pipelineguan-li.md)
+* Pipeline管理
   * [创建Pipeline](APIs/pipeline/pipeline/create_pipeline.md)
   * [更新Pipeline](APIs/pipeline/pipeline/update_pipeline.md)
   * [列出Pipeline](APIs/pipeline/pipeline/list_pipelines.md)
