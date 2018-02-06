@@ -86,24 +86,7 @@
   * [构建任务日志](APIs/pipeline/task/build_job_logs.md)
   * [构建任务实时日志](APIs/pipeline/task/build_job_logs_ws.md)
 
-## 4. 构建管理接口
-
-* [查询Git仓库配置](APIs/reaper/get_repo.md)
-* [列出Git仓库配置](APIs/reaper/list_repo.md)
-* [更新Git仓库配置](APIs/reaper/update_repo.md)
-* [激活Git仓库配置](APIs/reaper/activate_repo.md)
-* [删除Git仓库配置](APIs/reaper/delete_repo.md)
-* [查询密钥配置](APIs/reaper/get_secret.md)
-* [列出密钥配置](APIs/reaper/list_secret.md)
-* [更新密钥配置](APIs/reaper/update_secret.md)
-* [删除密钥配置](APIs/reaper/delete_secret.md)
-* [批量创建密钥配置](APIs/reaper/create_repo_secret.md)
-* [批量更新密钥配置](APIs/reaper/update_repo_secret.md)
-* [批量删除密钥配置](APIs/reaper/delete_repo_secret.md)
-* [批量添加密钥镜像配置](APIs/reaper/add_repo_secret_images.md)
-* [批量删除密钥镜像配置](APIs/reaper/delete_repo_secret_images.md)
-
-## 5. 通知管理接口
+## 4. 通知管理接口
 
 * 通知管理
   * [创建通知](APIs/notification/create_notify.md)
@@ -118,18 +101,18 @@
   * [获得关注列表](APIs/notification/list_subscribe.md)
   * [取消关注](APIs/notification/delete_subscribe.md)
 
-## 6. 测试管理接口
+## 5. 测试管理接口
 
 * 集成测试管理
   * [查找测试报告](APIs/itreport/find_itreport.md)
   * [下载测试报告](APIs/itreport/download_itreport.md)
 
-## 7. 用户管理接口
+## 6. 用户管理接口
 
 * 用户管理
   * [获取用户kube配置](APIs/user/get_user_kubeconfig.md)
 
-## 8. 安装管理脚本接口
+## 7. 安装管理脚本接口
 
 * 安装管理脚本
   * [创建脚本](APIs/installscript/create_install.md)
