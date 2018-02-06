@@ -11,11 +11,13 @@
 ```
 ##### 请求参数
 
+```json
 {
   "query": "s_product:spock-prod AND s_group:spock-prod AND s_service:spock-backend AND log:MR0e5R8NINOdWhAV",
   "start_time": 1517673600000,
   "end_time": 1517820869361
 }
+```
 
 ##### 参数说明
 
