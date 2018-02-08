@@ -27,7 +27,7 @@ GET /api/products?active=true
   
 ##### 正常返回
 
-用户产品返回
+查询当前用户产品
 ```json
 [
   {
@@ -38,7 +38,7 @@ GET /api/products?active=true
 ]
 ```
 
-全部用户创建中，更新中，删除中产品返回
+查询全部用户创建中，更新中，删除中产品
 ```json
 [
   {
