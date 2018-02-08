@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/maintenance/start
+POST /api/maintenance/start
 ```
 
 ##### 请求参数
