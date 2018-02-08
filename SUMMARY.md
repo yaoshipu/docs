@@ -133,5 +133,5 @@
   * [设置开始维护](APIs/maintenance/start.md)
   * [设置结束维护](APIs/maintenance/end.md)
   * [查询维护状态](APIs/maintenance/status.md)
-  * [查询禁止访问URL列表](APIs/maintenance/blockedlist.md)
+  * [查询禁止访问URL列表](APIs/maintenance/blocked_list.md)
 
