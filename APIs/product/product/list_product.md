@@ -18,7 +18,7 @@ GET /api/products?active=true
 
 |参数|说明|
 |---|---|
-|active|默认不填为获取该用户全部产品，true为获取全部用那个用户creating,updating,deleting产品|
+|active|默认不填为获取该用户全部产品，true为获取全部用户creating,updating,deleting产品|
 |groups|为服务组依赖, 外层数组为顺序执行，内层数组为并行执行|
 |status|为总体运行状态, 状态集包括|
 |Running|运行良好|
