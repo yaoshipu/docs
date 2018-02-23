@@ -80,7 +80,6 @@
   * [列出任务](APIs/pipeline/task/list_task.md)
   * [列出任务状态](APIs/pipeline/task/list_task_status.md)
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
-
 * 集成测试管理
   * [查找测试报告](APIs/pipeline/itreport/find_itreport.md)
   * [下载测试报告](APIs/pipeline/itreport/download_itreport.md)
@@ -110,20 +109,17 @@
   * [更新关注](APIs/system/notification/update_subscribe.md)
   * [获得关注列表](APIs/system/notification/list_subscribe.md)
   * [取消关注](APIs/system/notification/delete_subscribe.md)
-
 * 安装管理脚本
   * [创建脚本](APIs/system/installscript/create_install.md)
   * [列出脚本](APIs/system/installscript/list_install.md)
   * [获取脚本](APIs/system/installscript/get_install.md)
   * [更新脚本](APIs/system/installscript/update_install.md)
   * [删除脚本](APIs/system/installscript/delete_install.md)
-
 * 维护管理
   * [设置开始维护](APIs/system/maintenance/start.md)
   * [设置结束维护](APIs/system/maintenance/end.md)
   * [查询维护状态](APIs/system/maintenance/status.md)
   * [查询禁止访问URL列表](APIs/system/maintenance/blocked_list.md)
-
 * 用户管理
   * [获取用户kube配置](APIs/system/user/get_user_kubeconfig.md)
 
