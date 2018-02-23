@@ -81,6 +81,10 @@
   * [列出任务状态](APIs/pipeline/task/list_task_status.md)
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
 
+* 集成测试管理
+  * [查找测试报告](APIs/pipeline/itreport/find_itreport.md)
+  * [下载测试报告](APIs/pipeline/itreport/download_itreport.md)
+
 ## 4. 日志管理接口
 
 * 任务日志
@@ -92,46 +96,37 @@
   * [服务历史日志](APIs/log/container_log.md)
   * [服务实时日志](APIs/log/container_log_ws.md)
 
-## 5. 通知管理接口
+## 5. 系统管理接口
 
 * 通知管理
-  * [创建通知](APIs/notification/create_notify.md)
-  * [拉取消息](APIs/notification/pull_notify.md)
-  * [拉取系统通知](APIs/notification/pull_announcement.md)
-  * [拉取全部系统通知](APIs/notification/pull_all_announcement.md)
-  * [通知状态设置已读](APIs/notification/read_notify.md)
-  * [更新通知](APIs/notification/update_notify.md)
-  * [通知删除](APIs/notification/notify_deletebyid.md)
-  * [创建关注](APIs/notification/create_subscribe.md)
-  * [更新关注](APIs/notification/update_subscribe.md)
-  * [获得关注列表](APIs/notification/list_subscribe.md)
-  * [取消关注](APIs/notification/delete_subscribe.md)
-
-## 6. 测试管理接口
-
-* 集成测试管理
-  * [查找测试报告](APIs/itreport/find_itreport.md)
-  * [下载测试报告](APIs/itreport/download_itreport.md)
-
-## 7. 用户管理接口
-
-* 用户管理
-  * [获取用户kube配置](APIs/user/get_user_kubeconfig.md)
-
-## 8. 安装管理脚本接口
+  * [创建通知](APIs/system/notification/create_notify.md)
+  * [拉取消息](APIs/system/notification/pull_notify.md)
+  * [拉取系统通知](APIs/system/notification/pull_announcement.md)
+  * [拉取全部系统通知](APIs/system/notification/pull_all_announcement.md)
+  * [通知状态设置已读](APIs/system/notification/read_notify.md)
+  * [更新通知](APIs/system/notification/update_notify.md)
+  * [通知删除](APIs/system/notification/notify_deletebyid.md)
+  * [创建关注](APIs/system/notification/create_subscribe.md)
+  * [更新关注](APIs/system/notification/update_subscribe.md)
+  * [获得关注列表](APIs/system/notification/list_subscribe.md)
+  * [取消关注](APIs/system/notification/delete_subscribe.md)
 
 * 安装管理脚本
-  * [创建脚本](APIs/installscript/create_install.md)
-  * [列出脚本](APIs/installscript/list_install.md)
-  * [获取脚本](APIs/installscript/get_install.md)
-  * [更新脚本](APIs/installscript/update_install.md)
-  * [删除脚本](APIs/installscript/delete_install.md)
-
-## 9. 升级维护接口
+  * [创建脚本](APIs/system/installscript/create_install.md)
+  * [列出脚本](APIs/system/installscript/list_install.md)
+  * [获取脚本](APIs/system/installscript/get_install.md)
+  * [更新脚本](APIs/system/installscript/update_install.md)
+  * [删除脚本](APIs/system/installscript/delete_install.md)
 
 * 维护管理
-  * [设置开始维护](APIs/maintenance/start.md)
-  * [设置结束维护](APIs/maintenance/end.md)
-  * [查询维护状态](APIs/maintenance/status.md)
-  * [查询禁止访问URL列表](APIs/maintenance/blocked_list.md)
+  * [设置开始维护](APIs/system/maintenance/start.md)
+  * [设置结束维护](APIs/system/maintenance/end.md)
+  * [查询维护状态](APIs/system/maintenance/status.md)
+  * [查询禁止访问URL列表](APIs/system/maintenance/blocked_list.md)
+
+* 用户管理
+  * [获取用户kube配置](APIs/system/user/get_user_kubeconfig.md)
+
+
+
 
