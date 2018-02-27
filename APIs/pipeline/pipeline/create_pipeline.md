@@ -48,8 +48,8 @@ POST /api/v2/pipelines
           "pull_request",        
           "push"
         ],
-        "match_folders": [        // 必填
-          "\"  // 默认值
+        "match_folders": [        // 选填
+          "\"
         ]
       }
     ]
