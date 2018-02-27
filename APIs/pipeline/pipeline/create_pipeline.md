@@ -26,16 +26,16 @@ POST /api/v2/pipelines
   },
   "schedules": [                   // 选填
     {
-      "number": 1,
-      "frequency": "day",
-      "time": "10:15",
-      "enabled": true
+      "enabled": true,     // 必填
+      "number": 1,         // 必填
+      "frequency": "day",  // 必填
+      "time": "10:15",     // 选填
+      "max_faliures": 3     // 选填
     },
     {
+      "enabled": true
       "number": 30,
       "frequency": "minutes",
-      "time": "",
-      "enabled": true
     }
   ],
   "hook": {                        // 选填
