@@ -80,7 +80,7 @@
   * [列出任务](APIs/pipeline/task/list_task.md)
   * [列出任务状态](APIs/pipeline/task/list_task_status.md)
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
-* [测试管理]
+* 测试管理
   * [查找测试报告](APIs/pipeline/itreport/find_itreport.md)
   * [下载测试报告](APIs/pipeline/itreport/download_itreport.md)
 
