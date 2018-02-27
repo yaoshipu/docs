@@ -114,8 +114,8 @@ POST /api/v2/pipelines
       "timeout": 600
     },
     {
-    "type": "testingv2",
-    "enabled": true,
+    "type": "testingv2",   // 必填
+    "enabled": true,       // 必填
     "test_name": "test",
     "build_os": "trusty",
     "job_ctx": {
@@ -149,12 +149,14 @@ POST /api/v2/pipelines
       ]
     },
     {
-      "type": "distribute",
+      "type": "distribute",    // 必填
+      "enabled": true,         // 必填
       "dist_host": "jumpbox",
       "timeout": 600
     },
     {
-      "type": "jira",
+      "type": "jira",        // 必填
+      "enabled": true,       // 必填
       "repo_owner": "qbox",
       "repo_name": "aslan-platform",
       "timeout": 600
