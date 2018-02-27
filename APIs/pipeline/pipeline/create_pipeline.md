@@ -14,16 +14,17 @@ POST /api/v2/pipelines
 
 ```json
 {
-  "name": "test-pipeline",    // 必填
-  "description": "demo desc",
-  "enabled": true,            // 必填
-  "info": {
+  "name": "test-pipeline",         // 必填
+  "description": "this is a desc", // 选填
+  "enabled": true,                 // 必填
+  "team": "ASLAN",                 // 必填
+  "info": {                        // 选填
     "product_name": "spock-kube",
     "group_name": "spock-kube",
     "service_name": "spock-backend",
     "container_name": "spock-backend"
   },
-  "schedules": [
+  "schedules": [                   // 选填
     {
       "number": 1,
       "frequency": "day",
@@ -37,7 +38,7 @@ POST /api/v2/pipelines
       "enabled": true
     }
   ],
-  "hook": {
+  "hook": {                        // 选填
     "enabled": true,
     "git_hooks": [
       {
@@ -53,7 +54,7 @@ POST /api/v2/pipelines
       }
     ]
   },
-  "sub_tasks": [
+  "sub_tasks": [                  // 必填
     {
       "type": "buildv2", // 必填
       "enabled": true,   // 必填
