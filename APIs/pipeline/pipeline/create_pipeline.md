@@ -30,7 +30,7 @@ POST /api/v2/pipelines
       "number": 1,         // 必填
       "frequency": "day",  // 必填
       "time": "10:15",     // 选填
-      "max_faliures": 3   // 选填
+      "max_failures": 3    // 选填
     },
     {
       "enabled": true
@@ -39,17 +39,17 @@ POST /api/v2/pipelines
     }
   ],
   "hook": {                        // 选填
-    "enabled": true,
-    "git_hooks": [
+    "enabled": true,   // 必填
+    "git_hooks": [     
       {
-        "repo": "aslan-platform",
-        "branch": "develop",
-        "events": [
-          "pull_request",
+        "repo": "aslan-platform", // 必填
+        "branch": "develop",      // 必填
+        "events": [               // 必填
+          "pull_request",        
           "push"
         ],
-        "match_folders": [
-          "\"
+        "match_folders": [        // 必填
+          "\"  // 默认值
         ]
       }
     ]
