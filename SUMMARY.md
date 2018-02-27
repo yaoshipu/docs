@@ -80,7 +80,7 @@
   * [列出任务](APIs/pipeline/task/list_task.md)
   * [列出任务状态](APIs/pipeline/task/list_task_status.md)
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
-* 集成测试管理
+* [测试管理]
   * [查找测试报告](APIs/pipeline/itreport/find_itreport.md)
   * [下载测试报告](APIs/pipeline/itreport/download_itreport.md)
 
@@ -122,7 +122,4 @@
   * [查询禁止访问URL列表](APIs/system/maintenance/blocked_list.md)
 * 用户管理
   * [获取用户kube配置](APIs/system/user/get_user_kubeconfig.md)
-
-
-
 
