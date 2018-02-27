@@ -14,9 +14,9 @@ POST /api/v2/pipelines
 
 ```json
 {
-  "name": "test-pipeline",
+  "name": "test-pipeline",    // 必填
   "description": "demo desc",
-  "enabled": true,
+  "enabled": true,            // 必填
   "info": {
     "product_name": "spock-kube",
     "group_name": "spock-kube",
@@ -37,48 +37,47 @@ POST /api/v2/pipelines
       "enabled": true
     }
   ],
+  "hook": {
+    "enabled": true,
+    "git_hooks": [
+      {
+        "repo": "aslan-platform",
+        "branch": "develop",
+        "events": [
+          "pull_request",
+          "push"
+        ],
+        "match_folders": [
+          "\"
+        ]
+      }
+    ]
+  },
   "sub_tasks": [
     {
-      "type": "build",
-      "repo_owner": "qbox",
-      "repo_name": "aslan-platform",
-      "branch": "dev",
-      "bin": "spock-backend",
-      "timeout": 7200,
-      "dependency_builds": [
-        {
-          "repo_owner": "qbox",
-          "repo_name": "aslan-platform",
-          "branch": "master"
-        }
-      ]
-    },
-    {
-      "type": "buildv2",
-      "enabled": true,
+      "type": "buildv2", // 必填
+      "enabled": true,   // 必填
       "build_os": "trusty",
       "job_ctx": {
         "clean_workspace": false,
         "scripts": "set -e
-          printenv
-          go version
+          export GOPATH=$WORKSPACE
           export PKG_DIR=$WORKSPACE/src/github.com/qbox/aslan-platform/_package
           echo $PKG_DIR
           mkdir -p $PKG_DIR
-          export GOPATH=$WORKSPACE
           cd $WORKSPACE/src/github.com/qbox/aslan-platform
-          make deps-cache clean-spock build-spock-net
-          make depinstall-spock-portal build-spock-portal
+          mkdir -p $WORKSPACE/bin && export GOBIN=$WORKSPACE/bin
+          make deps build-backend-net
           cd spock/cmd/spock
           docker build --rm -t $IMAGE -f Dockerfile .
           docker push $IMAGE
-          cp ./spock $PKG_DIR
+          cp ./spock $PKG_DIR/spock
           tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
         "envs": [
           {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
         ],
-        "package_file": "spock-backend-test-0105-2.tar.gz",
-        "image": "index.qiniu.com/spocktest/spock-backend-test:01052",
+        "package_file": "spock-backend-20180222103427-develop.tar.gz",
+        "image": "reg.qiniu.com/spock-release-candidates/spock-backend:20180222103427-develop",
         "builds": [
           {
             "repo_owner": "qbox",
@@ -87,8 +86,8 @@ POST /api/v2/pipelines
             "pr": 0,
             "commit_id": "",
             "commit_message": "",
-            "checkout_path": "/src/github.com/qbox",
-            "remote_name": "origin",
+            "checkout_path": "src/github.com/qbox/aslan-platform",
+            "remote_name": "",
             "submodules": false
           }
         ]
@@ -100,14 +99,6 @@ POST /api/v2/pipelines
         },
         {
           "name": "glide",
-          "version": ""
-        },
-        {
-          "name": "node",
-          "version": "6.11.2"
-        },
-        {
-          "name": "yarn",
           "version": ""
         }
       ]
@@ -122,47 +113,15 @@ POST /api/v2/pipelines
       "timeout": 600
     },
     {
-      "type": "testing",
-      "test_image": "index.qiniu.com/spocktest/spock-tricorder:1.0.0",
-      "test_job_name": "spock-test",
-      "repo": "aslan-platform",
-      "owner": "qbox",
-      "branch": "develop",
-      "threshold": 90,
-      "script": "command to run test",
-      "result_path": "test result path",
-      "workspace": "/workspace",
-      "timeout": 3600
-    },
-    {
     "type": "testingv2",
     "enabled": true,
     "test_name": "test",
     "build_os": "trusty",
     "job_ctx": {
-        "test_threshold":100,
+        "test_threshold": 100,
       	"test_result_path":"/dora-cloud/test/reporters",
         "clean_workspace": false,
-        "scripts": "#!/bin/bash
-                  set -e
-                  export PATH=$PATH:/go/bin
-                  cd /workspace/dora-cloud/test
-                  source env.sh
-                  ./startup.sh
-                  export TEST_ENV=product
-                  export TEST_ZONE=z0
-                  export COMPARE_LEVEL=0
-                  echo $USER_NAME
-                  make dependency
-                  cd /workspace/dora-cloud/test
-                  #make testsmoke
-                  for p in pfop;
-                  do 
-                    cd  /workspace/dora-cloud/test/src/qtest.com/fop/$p
-                    ginkgo -p -keepGoing=true
-                  cd -
-                  done
-                  echo $?",
+        "scripts": "your testing scripts",
     "envs": [],
     "builds": [
         {
