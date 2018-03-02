@@ -14,7 +14,7 @@ POST /api/notify/subscribe
 
 ```json
 {
-    "type": 1,
+    "type": 2,
     "pipelinestatus":"passed"
 }
 ```
@@ -24,7 +24,7 @@ POST /api/notify/subscribe
 |参数|描述|
 |---|---|
 |type|`1`对应系统通知，`2`对应pipline提醒，`3`对应message|
-|pipelinestatus|`passed`关注通过信息，`failed`关注失败信息，`*`关注所有信息|
+|pipelinestatus|`passed`关注pipeline通过信息，`failed`关注失败信息，`*`关注所有信息|
 
 ##### 正常返回
 

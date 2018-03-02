@@ -97,7 +97,7 @@
 
 ## 5. 系统管理接口
 
-* 通知管理
+* [通知管理](5-xi-tong-guan-li-jie-kou/tong-zhi-guan-li.md)
   * [创建通知](APIs/system/notification/create_notify.md)
   * [拉取消息](APIs/system/notification/pull_notify.md)
   * [拉取系统通知](APIs/system/notification/pull_announcement.md)
