@@ -14,10 +14,10 @@ POST /api/favorite
 
 ```json
 {
- "user":"guoyu",
- "pipeline_name":"pipelinename",
- "create_time":1506652535
-  }
+   "user":"guoyu",
+   "pipeline_name":"pipelinename",
+   "create_time":1506652535
+}
 ```
 
 
