@@ -2,7 +2,7 @@
 
 #### 注意事项
 
-- 需要`user`权限
+* 需要`user`权限
 
 #### 请求
 
@@ -17,10 +17,10 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
 
 ##### 参数说明
 
-|参数|说明|
-|---|---|
-|id|运行任务的ID|
-|name|pipeline名称|
+| 参数 | 说明 |
+| --- | --- |
+| id | 运行任务的ID |
+| name | pipeline名称 |
 
 ##### 正常返回
 
@@ -64,6 +64,16 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
       "end_time": 1507111692,
       "type": "build"
     }
+    {
+      "type": "floy_deploy",
+      "start_time": 1520322656,
+      "end_time": 1520322689,
+      "service_name": "io",
+      "env":  "dev",
+      "before_fversion": "8OFLJZZtZkPVgxxYeUru2w",
+      "after_fversion": "mA19L_ZXwNVk9_-sFwsOsw",
+      "package_file": "KODO.TEST.2018-03-05-17-40-22.tar.gz"
+    }
   ],
   "dependency_builds": [
         {
@@ -79,3 +89,6 @@ GET /api/v2/tasks/ws/id/:id/pipelines/:name
 ```
 
 ##### 错误返回
+
+
+
