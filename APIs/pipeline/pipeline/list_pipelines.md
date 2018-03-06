@@ -2,7 +2,7 @@
 
 #### 注意事项
 
-- 需要`user`权限
+* 需要`user`权限
 
 #### 请求
 
@@ -53,6 +53,11 @@ GET /api/v2/pipelines
         "type": "deploy"
       },
       {
+          "type": "floy_deploy",
+          "service_name":"io",
+          "env": "dev"
+      },      
+      {
         "type": "testing",
         "test_image": "index.qiniu.com/spocktest/spock-tricorder:1.0.0",
         "test_job_name": "spock-test",
@@ -80,3 +85,6 @@ GET /api/v2/pipelines
 ```
 
 ##### 错误返回
+
+
+
