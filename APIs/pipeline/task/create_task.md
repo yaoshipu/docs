@@ -2,18 +2,20 @@
 
 #### 注意事项
 
-- 需要`user`权限
-- image格式
-  - 格式1: index.qiniu.com/spocktest/spock-backend:20171010142156-develop
-  - 格式2: index.qiniu.com/spocktest/spock-backend:20171010142156-pr123
-  - spock-backend 为二进制或者服务名称
-  - 20171010142156 为时间戳精确到秒
-  - develop 为分支名称
-  - pr123 为Git PR
+* 需要`user`权限
+* image格式
 
-- package_file 格式
-  - spock-backend-20171010142156-develop.tar.gz
-  - spock-backend-20171010142156-pr123.tar.gz
+  * 格式1: index.qiniu.com/spocktest/spock-backend:20171010142156-develop
+  * 格式2: index.qiniu.com/spocktest/spock-backend:20171010142156-pr123
+  * spock-backend 为二进制或者服务名称
+  * 20171010142156 为时间戳精确到秒
+  * develop 为分支名称
+  * pr123 为Git PR
+
+* package\_file 格式
+
+  * spock-backend-20171010142156-develop.tar.gz
+  * spock-backend-20171010142156-pr123.tar.gz
 
 #### 请求
 
@@ -126,6 +128,12 @@ POST /api/tasks
       "timeout": 600
     },
     {
+      "type": "floy_deploy",
+      "service_name": "io",
+      "package_file": "IO.2018-03-05-17-40-22.tar.gz",
+      "env": "dev"
+    }
+    {
       "type": "testing",
       "product_name": "spock-kube",
       "group_name": "spock-test",
@@ -143,7 +151,7 @@ POST /api/tasks
     "build_os": "trusty",
     "job_ctx": {
         "test_threshold":100,
-      	"test_result_path":"/dora-cloud/test/reporters",
+          "test_result_path":"/dora-cloud/test/reporters",
         "clean_workspace": false,
         "scripts": "#!/bin/bash
                   set -e
@@ -209,16 +217,16 @@ POST /api/tasks
 
 ##### 参数说明
 
-|key|value|
-|---|---|
-|pipeline_name|工作流名称|
-|repo_name|代码库名称|
-|repo_owner|代码库所有人|
-|branch|代码编译分支 如果提供了pull_request_number, branch会被忽略|
-|pull_request_number|pull request number|
-|commit_id|commitID 如果是提交PR, 则需要提供|
-|install_ctx| 全部可选 |
-|build_os| precise, trusty, xential |
+| key | value |
+| --- | --- |
+| pipeline\_name | 工作流名称 |
+| repo\_name | 代码库名称 |
+| repo\_owner | 代码库所有人 |
+| branch | 代码编译分支 如果提供了pull\_request\_number, branch会被忽略 |
+| pull\_request\_number | pull request number |
+| commit\_id | commitID 如果是提交PR, 则需要提供 |
+| install\_ctx | 全部可选 |
+| build\_os | precise, trusty, xential |
 
 ##### 正常返回
 
@@ -227,3 +235,6 @@ POST /api/tasks
 ```
 
 ##### 错误返回
+
+
+

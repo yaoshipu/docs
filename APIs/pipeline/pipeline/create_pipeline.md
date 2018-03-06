@@ -2,7 +2,7 @@
 
 #### 注意事项
 
-- 需要`admin`权限
+* 需要`admin`权限
 
 #### 请求
 
@@ -114,13 +114,18 @@ POST /api/v2/pipelines
       "timeout": 600
     },
     {
+      "type": "floy_deploy",
+      "service_name":"io",
+      "env": "dev"
+    },
+    {
     "type": "testingv2",   // 必填
     "enabled": true,       // 必填
     "test_name": "test",
     "build_os": "trusty",
     "job_ctx": {
         "test_threshold": 100,
-      	"test_result_path":"/dora-cloud/test/reporters",
+          "test_result_path":"/dora-cloud/test/reporters",
         "clean_workspace": false,
         "scripts": "your testing scripts",
     "envs": [],
@@ -167,15 +172,15 @@ POST /api/v2/pipelines
 
 ##### 参数说明
 
-|参数|说明|
-|---|---|
-|timeout|任务超时时间, 单位秒|
-|test_job_name|单个用户唯一|
-|schedule.number|minutes区间最小值为30,其他>0|
-|schedule.frequency|任务周期，支持 minutes, hour, hours, day, days, monday -> sunday|
-|schedule.time|任务运行时间，可以和 day, days, monday -> sunday 配合使用|
-|install_ctx| 全部可选 |
-|build_os| precise, trusty, xential |
+| 参数 | 说明 |
+| --- | --- |
+| timeout | 任务超时时间, 单位秒 |
+| test\_job\_name | 单个用户唯一 |
+| schedule.number | minutes区间最小值为30,其他&gt;0 |
+| schedule.frequency | 任务周期，支持 minutes, hour, hours, day, days, monday -&gt; sunday |
+| schedule.time | 任务运行时间，可以和 day, days, monday -&gt; sunday 配合使用 |
+| install\_ctx | 全部可选 |
+| build\_os | precise, trusty, xential |
 
 ##### 正常返回
 
@@ -184,3 +189,6 @@ POST /api/v2/pipelines
 ```
 
 ##### 错误返回
+
+
+
