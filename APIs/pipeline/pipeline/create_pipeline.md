@@ -116,7 +116,8 @@ POST /api/v2/pipelines
     {
       "type": "floy_deploy",
       "service_name":"io",
-      "env": "dev"
+      "env": "dev",
+      "timeout": 10
     },
     {
     "type": "testingv2",   // 必填
