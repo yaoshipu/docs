@@ -128,7 +128,7 @@
   * [查询禁止访问URL列表](APIs/system/maintenance/blocked_list.md)
 * 用户管理
   * [获取用户kube配置](APIs/system/user/get_user_kubeconfig.md)
-* [仓库管理]
+* 仓库管理
   * [创建仓库 webhook](APIs/system/webhook/create_hook.md)
   * [删除仓库 webhook](APIs/system/webhook/delete_hook.md)
   * [列出仓库 webhook](APIs/system/webhook/list_hooks.md)
