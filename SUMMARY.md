@@ -98,6 +98,11 @@
 ## 5. 统计信息管理接口
 
 * 工程仪表盘
+* [创建insights config](APIs/insights/create_config.md)
+* [列出insights config](APIs/insights/list_config.md)
+* [更新insights config](APIs/insights/update_config.md)
+* [删除insights config](APIs/insights/delete_config.md)
+* [获取项目进度insights](APIs/insights/get_project_insights.md)
 
 * Spock使用信息
 
