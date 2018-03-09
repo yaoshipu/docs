@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/insights/project
+GET /api/insights/project/:boardname
 ```
 
 ##### 请求参数
