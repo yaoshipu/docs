@@ -22,7 +22,7 @@ GET /api/insights/config
 
 ```json
 [
-  {
+ {
     "board_name": "test", 
     "github_config": {
         "enabled": true, 
@@ -33,10 +33,10 @@ GET /api/insights/config
     }, 
     "project_config": {
         "enabled": true, 
-        "project_name": "aslan", 
-        "project_id": 123, 
-        "board_name": "spock", 
-        "board_id": 112, 
+        "jira_project_name": "aslan", 
+        "jira_project_id": 123, 
+        "jira_board_name": "spock", 
+        "jira_board_id": 112, 
         "bugs_query": "", 
         "unresolved_bugs_query": "", 
         "tasks_query": "", 
@@ -67,7 +67,7 @@ GET /api/insights/config
         "deploy_issues_query": "", 
         "completed_deploy_issues_query": ""
     }
- }
+}
 ]
 ```
 
