@@ -95,7 +95,13 @@
   * [服务历史日志](APIs/log/container_log.md)
   * [服务实时日志](APIs/log/container_log_ws.md)
 
-## 5. 系统管理接口
+## 5. 统计信息管理接口
+
+* 工程仪表盘
+
+* Spock使用信息
+
+## 6. 系统管理接口
 
 * 通知管理
   * [创建通知](APIs/system/notification/create_notify.md)
@@ -122,7 +128,7 @@
   * [查询禁止访问URL列表](APIs/system/maintenance/blocked_list.md)
 * 用户管理
   * [获取用户kube配置](APIs/system/user/get_user_kubeconfig.md)
-* [仓库管理](5-xi-tong-guan-li-jie-kou/cang-ku-guan-li.md)
+* [仓库管理]
   * [创建仓库 webhook](APIs/system/webhook/create_hook.md)
   * [删除仓库 webhook](APIs/system/webhook/delete_hook.md)
   * [列出仓库 webhook](APIs/system/webhook/list_hooks.md)
