@@ -1,4 +1,4 @@
-## 获取项目进度insights
+## 获取工作流insights
 
 #### 注意事项
 
@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/insights/project/:boardname
+GET /api/insights/pipeline/:boardname
 ```
 
 ##### 请求参数
@@ -22,29 +22,30 @@ GET /api/insights/project/:boardname
 
 ```json
 {
-    "board_name": "aslan", 
-    "current_sprint": {
-        "id": 1, 
-        "name": "ASLAN", 
-        "start_time": 12232343, 
-        "end_time": 123446898, 
-        "new_issues": 3, 
-        "process_issues": 5, 
-        "completed_issues": 8
-    }, 
-    "user_progress": [
+    "board_name":"test",
+    "total":81,
+    "total_average_pass_rate":0,
+    "tendency_total_run_count":[
         {
-            "user_name": "guoyu", 
-            "new_issues": 3, 
-            "process_issues": 6, 
-            "completed_issues": 5
+            "value":80,
+            "time":1520405461
+        },
+        {
+            "value":80,
+            "time":1520406065
         }
-    ], 
-    "bugs": 5, 
-    "unresolved_bugs": 2, 
-    "tasks": 10, 
-    "unresolved_tasks": 4, 
-    "update_time": 1234567886
+    ],
+    "tendency_total_average_run_time":[
+        {
+            "value":147,
+            "time":1520405461
+        },
+        {
+            "value":147,
+            "time":1520406065
+        }
+    ],
+    "update_time":0
 }
 ```
 
