@@ -27,24 +27,10 @@ GET /api/jira/board/:key
 ```json
 [
     {
-        "id": "11114",
-        "key": "APM",
-        "name": "APM"
-    },
-    {
-        "id": "10307",
-        "key": "APPS",
-        "name": "APPS"
-    },
-    {
-        "id": "11901",
-        "key": "ARGO",
-        "name": "ARGO"
-    },
-    {
-        "id": "10217",
-        "key": "ASLAN",
-        "name": "Aslan"
+        "id": 234,
+        "self": "https://jira.qiniu.io/rest/agile/1.0/board/234",
+        "name": "Aslan  Sprint Board",
+        "type": "scrum"
     }
 ]
 ```

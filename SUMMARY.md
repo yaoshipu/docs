@@ -106,6 +106,8 @@
 * [获取工作流insights](APIs/insights/get_pipeline_insights.md)
 * [获取团队统计信息](APIs/insights/get_team_stats.md)
 * [获取产品统计信息](APIs/insights/get_product_stats.md)
+* [获取jiraproject列表](APIs/jira/get_jira_project.md)
+* [获取jiraboard列表](APIs/jira/get_jira_board.md)
 
 
 * Spock使用信息
