@@ -24,6 +24,7 @@ GET /api/insights/project/:boardname
 {
     "board_name": "aslan", 
     "time_consumed_rate" : 0.3591993749141693,
+    "completed_rate" : 0.1666666716337204,
     "current_sprint": {
         "id": 1, 
         "name": "ASLAN", 
