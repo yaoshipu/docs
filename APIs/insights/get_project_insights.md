@@ -23,6 +23,7 @@ GET /api/insights/project/:boardname
 ```json
 {
     "board_name": "aslan", 
+    "time_consumed_rate" : 0.3591993749141693,
     "current_sprint": {
         "id": 1, 
         "name": "ASLAN", 
@@ -37,7 +38,8 @@ GET /api/insights/project/:boardname
             "user_name": "guoyu", 
             "new_issues": 3, 
             "process_issues": 6, 
-            "completed_issues": 5
+            "completed_issues": 5,
+            "completed_rate" : 0.1666666716337204
         }
     ], 
     "bugs": 5, 
