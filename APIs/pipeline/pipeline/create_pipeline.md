@@ -77,6 +77,7 @@ POST /api/v2/pipelines
         "envs": [
           {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
         ],
+        "upload_pkg" : true, # 决定是否上传到KODO
         "package_file": "spock-backend-20180222103427-develop.tar.gz",
         "image": "reg.qiniu.com/spock-release-candidates/spock-backend:20180222103427-develop",
         "builds": [

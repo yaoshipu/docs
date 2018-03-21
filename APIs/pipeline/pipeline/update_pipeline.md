@@ -82,6 +82,7 @@ PUT /api/v2/pipelines/:name
         "envs": [
           {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
         ],
+        "upload_pkg" : true, # 决定是否上传到KODO
         "package_file": "spock-backend-test-0105-2.tar.gz",
         "image": "index.qiniu.com/spocktest/spock-backend-test:01052",
         "builds": [
