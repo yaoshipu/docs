@@ -103,6 +103,7 @@
 * [更新insights config](APIs/insights/update_config.md)
 * [删除insights config](APIs/insights/delete_config.md)
 * [获取项目进度insights](APIs/insights/get_project_insights.md)
+* [获取质量现状insights](APIs/insights/get_quality_insights.md)
 * [获取工作流insights](APIs/insights/get_pipeline_insights.md)
 * [获取团队统计信息](APIs/insights/get_team_stats.md)
 * [获取产品统计信息](APIs/insights/get_product_stats.md)
