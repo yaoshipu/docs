@@ -23,7 +23,9 @@ GET /api/insights/quality/:boardname
 ```json
 {
     "board_name": "test",
-    "errors": [],
+    "errors": {
+    "ut_coverage":"team []not found"
+    },
     "ut_coverage": 42.672886,
     "it_coverage": 0.17699985,
     "it_average_run_time": 19.968916,
