@@ -23,6 +23,9 @@ GET /api/insights/project/:boardname
 ```json
 {
     "board_name": "aslan", 
+    "errors": {
+    "time_consumed_rate":"team []not found"
+    },
     "time_consumed_rate" : 0.3591993749141693,
     "completed_rate" : 0.1666666716337204,
     "current_sprint": {
