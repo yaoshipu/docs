@@ -37,27 +37,6 @@ POST /api/tasks
   },
   "sub_tasks": [
     {
-      "type": "build",
-      "repo_owner": "qbox",
-      "repo_name": "aslan-platform",
-      "branch": "dev",
-      "pull_request_number": 123,
-      "commit_id": "456",
-      "bin": "spock-backend",
-      "image": "index.qiniu.com/spocktest/spock-backend:1.0.3",
-      "package_file": "build service kodo package file",
-      "package_dir": "build service kodo package file",
-      "dependency_builds": [
-        {
-          "repo_owner": "qbox",
-          "repo_name": "aslan-platform",
-          "branch": "master",
-          "pull_request_number": 11
-        }
-      ],
-      "timeout": 7200
-    },
-    {
       "type": "buildv2",
       "enabled": true,
       "build_os": "trusty",
