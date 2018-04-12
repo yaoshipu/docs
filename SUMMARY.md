@@ -12,17 +12,20 @@
   * [创建产品模板](APIs/template/product/create_product_tmpl.md)
   * [更新产品模板](APIs/template/product/update_product_tmpl.md)
   * [列出产品模板](APIs/template/product/list_product_tmpl.md)
+  * [列出产品模板V2](APIs/template/product/list_product_tmpl_v2.md)
   * [查询产品模板](APIs/template/product/get_product_tmpl.md)
   * [删除产品模板](APIs/template/product/delete_product_tmpl.md)
 * 服务组模板
   * [创建服务组模板](APIs/template/group/create_group_tmpl.md)
   * [更新服务组模板](APIs/template/group/update_group_tmpl.md)
   * [列出服务组模板](APIs/template/group/list_group_tmpl.md)
+  * [列出服务组模板V2](APIs/template/group/list_group_tmpl_v2.md)
   * [查询服务组模板](APIs/template/group/get_group_tmpl.md)
   * [删除服务组模板](APIs/template/group/delete_group_tmpl.md)
 * 服务模板
   * [创建服务模板](APIs/template/service/create_service_tmpl.md)
   * [列出服务模板名称](APIs/template/service/list_service_tmpl.md)
+  * [列出服务模板名称V2](APIs/template/service/list_service_tmpl_v2.md)
   * [查询服务模板](APIs/template/service/get_service_tmpl.md)
   * [删除服务模板](APIs/template/service/delete_service_tmpl.md)
   * [检查服务模板Yaml](APIs/template/service/validate_service_yaml.md)
@@ -78,6 +81,7 @@
   * [取消运行中任务](APIs/pipeline/task/cancel_running_task.md)
   * [重启任务](APIs/pipeline/task/restart_task.md)
   * [列出任务](APIs/pipeline/task/list_task.md)
+  * [列出任务v2](APIs/pipeline/task/list_task_v2.md)
   * [列出任务状态](APIs/pipeline/task/list_task_status.md)
   * [列出Agent状态](APIs/pipeline/task/list_agent_status.md)
 * 测试管理
@@ -112,15 +116,13 @@
 * [获取aone utteam列表](APIs/insights/list_utteam.md)
 * [获取aone stteam列表](APIs/insights/list_stteam.md)
 
-
-
-
+---
 
 * Spock使用信息
 
 ## 6. 系统管理接口
 
-* 通知管理
+* [通知管理](6-xi-tong-guan-li-jie-kou/tong-zhi-guan-li.md)
   * [创建通知](APIs/system/notification/create_notify.md)
   * [拉取消息](APIs/system/notification/pull_notify.md)
   * [拉取系统通知](APIs/system/notification/pull_announcement.md)
