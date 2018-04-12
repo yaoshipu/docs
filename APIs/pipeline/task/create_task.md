@@ -54,7 +54,7 @@ POST /api/tasks
           "branch": "master",
           "pull_request_number": 11
         }
-      ]
+      ],
       "timeout": 7200
     },
     {
@@ -79,7 +79,7 @@ POST /api/tasks
           cp ./spock $PKG_DIR
           tar -czvf $DIST_DIR/$PKG_FILE $PKG_DIR",
         "envs": [
-          {"key":"TEST_ENV", "value"="ABC", "is_credential": true }
+          {"key":"TEST_ENV", "value":"ABC", "is_credential": true }
         ],
         "package_file": "spock-backend-test-0105-2.tar.gz",
         "image": "index.qiniu.com/spocktest/spock-backend-test:01052",
@@ -132,17 +132,6 @@ POST /api/tasks
       "service_name": "io",
       "package_file": "IO.2018-03-05-17-40-22.tar.gz",
       "env": "dev"
-    }
-    {
-      "type": "testing",
-      "product_name": "spock-kube",
-      "group_name": "spock-test",
-      "service_name": "spock-backend-test",
-      "container_name": "spock-backend-test",
-      "threshold": 90,
-      "command": "command to run test",
-      "result_path": "test result path",
-      "timeout": 3600
     },
     {
     "type": "testingv2",
