@@ -31,7 +31,9 @@ POST /api/insights/config
         "bugs_query": "", 
         "unresolved_bugs_query": "", 
         "tasks_query": "", 
-        "unresolved_tasks_query": ""
+        "unresolved_tasks_query": "",
+        "module_field":"component",
+        "modules":["Spock","服务"]
     }, 
     "quality_config": {
         "enabled": true, 

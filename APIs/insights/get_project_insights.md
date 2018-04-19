@@ -46,6 +46,14 @@ GET /api/insights/project/:boardname
             "completed_rate" : 0.1666666716337204
         }
     ], 
+    "module_progress":[
+        {
+            "module_name":"Spock",
+            "completed_issues":6,
+            "all_issues":27,
+            "completed_rate":0.22222222
+        }
+    ],
     "bugs": 5, 
     "unresolved_bugs": 2, 
     "tasks": 10, 

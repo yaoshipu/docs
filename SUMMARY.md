@@ -113,6 +113,7 @@
 * [获取产品统计信息](APIs/insights/get_product_stats.md)
 * [获取jiraproject列表](APIs/jira/get_jira_project.md)
 * [获取jiraboard列表](APIs/jira/get_jira_board.md)
+* [获取jiramodule列表](APIs/jira/list_jira_module.md)
 * [获取aone utteam列表](APIs/insights/list_utteam.md)
 * [获取aone stteam列表](APIs/insights/list_stteam.md)
 
