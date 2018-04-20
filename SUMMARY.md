@@ -8,7 +8,7 @@
 
 ## 1. 模板管理接口
 
-* 产品模板
+* [产品模板](1-mo-ban-guan-li-jie-kou/chan-pin-mo-ban.md)
   * [创建产品模板](APIs/template/product/create_product_tmpl.md)
   * [更新产品模板](APIs/template/product/update_product_tmpl.md)
   * [列出产品模板](APIs/template/product/list_product_tmpl.md)
@@ -44,6 +44,7 @@
   * [列出产品](APIs/product/product/list_product.md)
   * [删除产品](APIs/product/product/delete_product.md)
   * [列出产品更新信息](APIs/product/product/list_product_revision.md)
+  * [获取产品部署环境状态](APIs/product/product/get_product_deployment.md)
 * 服务组管理
   * [列出服务组](APIs/product/group/list_group.md)
   * [查询服务组](APIs/product/group/get_group.md)
