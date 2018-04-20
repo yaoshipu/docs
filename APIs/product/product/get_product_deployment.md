@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-DELETE /api/product/:productName/user/:userName
+GET /api/product/:productName/user/:userName
 ```
 ##### 请求参数
 
