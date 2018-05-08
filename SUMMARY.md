@@ -38,7 +38,7 @@
 
 ## 2. 产品管理接口
 
-* 产品管理
+* [产品管理](2-chan-pin-guan-li-jie-kou/chan-pin-guan-li.md)
   * [创建产品](APIs/product/product/create_product.md)
   * [更新产品](APIs/product/product/update_product.md)
   * [列出产品](APIs/product/product/list_product.md)
