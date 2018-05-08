@@ -7,20 +7,25 @@
 #### 请求
 
 ```
-GET /api/product/:productName/user/:userName
+GET /api/validate/product/:productName/user/:userName
 ```
-##### 请求参数
-
-无
 
 ##### 参数说明
 
-无
+|参数|说明|
+|---|---|
+|status|是否可部署|
+|msg|详细信息|
+
+
 
 ##### 正常返回
 
 ```
-true
+{
+    "status": true,
+    "msg": "对应环境可部署"
+}
 ```
 
 ##### 错误返回
