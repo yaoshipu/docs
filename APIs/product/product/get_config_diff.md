@@ -1,4 +1,4 @@
-## 获取服务模板diff
+## 获取配置模板模板diff
 
 #### 注意事项
 
@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/diff/product/:product/group/:group/service/:service
+GET /api/diff/product/:product/group/:group/service/:service/config/:config
 ```
 
 ##### 请求参数
@@ -20,13 +20,19 @@ GET /api/diff/product/:product/group/:group/service/:service
 ```json
   {
     "current": {
-        "yaml": "aaa",
+        "data": {
+           "key": "a_config",
+           "value": "b_value"
+        },
         "update_by": "guoyu",
         "revision": 1
         
     },
     "latest": {
-         "yaml": "aaa",
+         "data": {
+           "key": "a_config",
+           "value": "b_value"
+        },
          "update_by": "guoyu",
          "revision": 1
     }
