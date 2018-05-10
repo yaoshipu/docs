@@ -23,18 +23,13 @@ GET /api/diff/product/:product/group/:group/service/:service/config/:config
         "data": {
            "key": "a_config",
            "value": "b_value"
-        },
-        "update_by": "guoyu",
-        "revision": 1
-        
+        }   
     },
     "latest": {
          "data": {
            "key": "a_config",
            "value": "b_value"
-        },
-         "update_by": "guoyu",
-         "revision": 1
+        }
     }
   }
 ```
