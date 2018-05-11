@@ -12,7 +12,7 @@ GET /api/templates/services/:name
 
 ##### 请求参数
 
-reversion=1
+revision=1
 
 ##### 参数说明
 
