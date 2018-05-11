@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/diff/product/:product/group/:group/service/:service
+GET /api/diff/products/:product/groups/:group/services/:service
 ```
 
 ##### 请求参数
