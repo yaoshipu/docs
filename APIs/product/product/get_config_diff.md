@@ -20,16 +20,16 @@ GET /api/diff/products/:product/groups/:group/services/:service/configs/:config
 ```json
   {
     "current": {
-        "data": {
+        "data": [{
            "key": "a_config",
            "value": "b_value"
-        }   
+        }]   
     },
     "latest": {
-         "data": {
+         "data": [{
            "key": "a_config",
            "value": "b_value"
-        }
+        }]
     }
   }
 ```
