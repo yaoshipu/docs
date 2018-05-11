@@ -45,7 +45,6 @@
   * [删除产品](APIs/product/product/delete_product.md)
   * [列出产品更新信息](APIs/product/product/list_product_revision.md)
   * [获取产品部署环境状态](APIs/product/product/get_product_deployment.md)
-  * [获取服务模板diff](APIs/product/product/get_service_diff.md)
   * [获取配置模板diff](APIs/product/product/get_config_diff.md)
 * 服务组管理
   * [列出服务组](APIs/product/group/list_group.md)
