@@ -35,7 +35,8 @@ GET /api/products?active=true
   {
     "product_name": "portal-v4",
     "groups": ["portal-v4", "kodo"],
-    "status": "Running"
+    "status": "Running",
+    "owner": "yaoshipu"
   }
 ]
 ```
