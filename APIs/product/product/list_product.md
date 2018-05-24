@@ -15,7 +15,7 @@ GET /api/products
 |参数|说明|
 |---|---|
 |active|默认不填为获取该用户全部产品，true为获取全部用户creating,updating,deleting产品|
-|auth|默认不填为获取该用户全部产品，true为获取全部授权产品|
+|auth|默认不填为获取该用户全部产品，true为获取该用户全部授权产品|
 
 ##### 参数说明
 
