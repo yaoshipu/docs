@@ -12,7 +12,7 @@ GET /api/products?active=true
 
 ##### 请求参数
 
-无
+active=true
 
 ##### 参数说明
 
