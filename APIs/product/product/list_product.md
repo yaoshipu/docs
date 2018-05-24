@@ -7,7 +7,7 @@
 #### 请求
 
 ```
-GET /api/products?active=true
+GET /api/products
 ```
 
 ##### 请求参数
