@@ -18,7 +18,7 @@ GET /api/products/:productName/groups
 
 |参数|说明|
 |---|---|
-|productOwner|默认不填为获取该用户全部服务器，填 {owner name} 为获取被授权产品服务组信息|
+|productOwner|默认不填为获取该用户全部服务器，填{owner name}为获取该用户产品服务组信息，需要授权|
 
 ##### 参数说明
 
