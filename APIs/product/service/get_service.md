@@ -25,6 +25,7 @@ GET /api/products/:productName/groups/:groupName/services/:serviceName
 ```json
 {
   "service_name": "spock-frontend",
+  "product_owner": "yaoshipu",
   "ingress": [
     {
       "name": "spock-dev-spock-frontend",
@@ -75,8 +76,7 @@ GET /api/products/:productName/groups/:groupName/services/:serviceName
         }
       ]
     }
-  ],
-  "product_owner": "yaoshipu"
+  ]
 }
 ```
 ##### 错误返回
