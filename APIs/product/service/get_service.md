@@ -12,7 +12,9 @@ GET /api/products/:productName/groups/:groupName/services/:serviceName
 
 ##### 请求参数
 
-无
+|参数|说明|
+|---|---|
+|productOwner|默认不填为获取该用户全部服务器，填{owner name}为获取该用户产品服务组信息，需要授权|
 
 ##### 参数说明
 
