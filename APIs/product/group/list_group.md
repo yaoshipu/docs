@@ -35,16 +35,11 @@ GET /api/products/:productName/groups
           "index",
           "kirk",
           "kodo",
-          "fusion",
-          "certificate",
-          "jedi",
-          "pili",
-          "vance",
-          "kylin",
-          "fe-financial"
+          "fusion"
         ]
       ],
-      "status": "Running"
+      "status": "Running",
+      "product_owner": "yaoshipu"
     }
   ]
 ```
