@@ -13,6 +13,7 @@ GET /api/products?active=true
 ##### 请求参数
 
 active=true
+auth=true
 
 ##### 参数说明
 
