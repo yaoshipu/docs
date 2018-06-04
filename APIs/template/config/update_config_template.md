@@ -13,7 +13,7 @@
 #### 请求
 
 ```
-PT /api/templates/configs
+PUT /api/templates/configs?flag=:flag
 ```
 
 ##### 请求参数
@@ -51,6 +51,7 @@ PT /api/templates/configs
 | service_name | 配置属于的服务 |
 | config_data | 配置内容 |
 | render_data | 渲染键值内容 |
+| flag | flag为config只修改configdata,为render只修改renderdata,默认全部修改 |
 
 ##### 正常返回
 

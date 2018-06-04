@@ -29,11 +29,12 @@
   * [查询服务模板](APIs/template/service/get_service_tmpl.md)
   * [删除服务模板](APIs/template/service/delete_service_tmpl.md)
   * [检查服务模板Yaml](APIs/template/service/validate_service_yaml.md)
-* 配置模板
+* [配置模板](1-mo-ban-guan-li-jie-kou/pei-zhi-mo-ban.md)
   * [创建配置模板](APIs/template/config/create_config_tmpl.md)
   * [列出配置模板](APIs/template/config/list_config_tmpl.md)
   * [查询配置模板](APIs/template/config/get_config_tmpl.md)
   * [删除配置模板](APIs/template/config/delete_config_tmpl.md)
+  * [修改配置模板](APIs/template/config/update_config_template.md)
   * [修改配置模板名称](APIs/template/config/update_config_tmpl_name.md)
 
 ## 2. 产品管理接口
